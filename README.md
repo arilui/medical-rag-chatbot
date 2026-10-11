@@ -4,7 +4,7 @@ A full-stack Retrieval-Augmented Generation (RAG) chatbot for medical education,
 
 It answers health questions using retrieved passages from MedlinePlus, cites the pages it used, and declines questions its reference material doesn't cover instead of answering from the model's memory.
 
-**Live demo:** _add your Vercel URL here_
+   **Live demo:** https://medical-rag-chatbot-46j3.vercel.app
 
 ---
 
