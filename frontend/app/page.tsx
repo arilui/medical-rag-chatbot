@@ -2,9 +2,12 @@
 
 import { useState } from "react";
 
+const API_URL = process.env.NEXT_PUBLIC_API_URL ?? "http://127.0.0.1:8000";
+
 type Source = {
   source: string;
-  page?: number;
+  url?: string;
+  score?: number;
   preview: string;
 };
 
@@ -34,7 +37,7 @@ export default function Home() {
     setLoading(true);
 
     try {
-      const response = await fetch("http://127.0.0.1:8000/chat", {
+      const response = await fetch(`${API_URL}/chat`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -45,6 +48,16 @@ export default function Home() {
       });
 
       const data = await response.json();
+
+      if (!response.ok) {
+        const detail =
+          typeof data.detail === "string"
+            ? data.detail
+            : "Your message couldn't be processed. Messages are limited to 1,000 characters.";
+        setMessages((prev) => [...prev, { role: "assistant", content: detail }]);
+        setLoading(false);
+        return;
+      }
 
       const assistantMessage: Message = {
         role: "assistant",
@@ -111,7 +124,18 @@ export default function Home() {
                     className="bg-zinc-900 border border-zinc-800 rounded-xl p-3 text-sm"
                   >
                     <div className="font-semibold">
-                      {source.source}
+                      {source.url ? (
+                        <a
+                          href={source.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="hover:underline"
+                        >
+                          {source.source}
+                        </a>
+                      ) : (
+                        source.source
+                      )}
                     </div>
 
                     <div className="text-zinc-400 mt-1">
@@ -142,6 +166,7 @@ export default function Home() {
                 sendMessage();
               }
             }}
+            maxLength={1000}
             placeholder="Ask a medical question..."
             className="flex-1 bg-zinc-900 border border-zinc-700 rounded-xl px-4 py-3 outline-none focus:border-blue-500"
           />

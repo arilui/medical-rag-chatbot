@@ -1,0 +1,7 @@
+# Everything needed to run locally and rebuild the index.
+# The deployed API only installs requirements.txt.
+-r requirements.txt
+uvicorn>=0.30
+requests>=2.31
+beautifulsoup4>=4.12
+langchain-text-splitters>=0.3

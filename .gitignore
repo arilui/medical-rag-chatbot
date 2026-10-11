@@ -2,6 +2,7 @@
 backend/venv/
 backend/__pycache__/
 backend/chroma_db/
+.venv/
 
 # Environment variables
 backend/.env
