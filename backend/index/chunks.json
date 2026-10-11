@@ -1,0 +1,485 @@
+{
+  "embedding_model": "text-embedding-3-small",
+  "chunks": [
+    {
+      "text": "Skip navigation\nOfficial websites use .gov\nA\n.gov\nwebsite belongs to an official government\n              organization in the United States.\nSecure .gov websites use HTTPS\nA\nlock\n(\nLock\nLocked padlock icon\n) or\nhttps://\nmeans you\u00e2\u0080\u0099ve safely connected to\n              the .gov website. Share sensitive information only on official,\n              secure websites.\nYou Are Here:\nHome\n\u2192\nHealth Topics\n\u2192\nDiabetes\nURL of this page: https://medlineplus.gov/diabetes.html\nDiabetes\nAlso called: Diabetes mellitus, DM\nOn this page\nBasics\nSummary\nStart Here\nDiagnosis and Tests\nPrevention and Risk Factors\nTreatments and Therapies\nLearn More\nLiving With\nRelated Issues\nGenetics\nSee, Play and Learn\nTest Your Knowledge\nResearch\nStatistics and Research\nClinical Trials\nJournal Articles\nResources\nReference Desk",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/diabetes.html"
+    },
+    {
+      "text": "Genetics\nSee, Play and Learn\nTest Your Knowledge\nResearch\nStatistics and Research\nClinical Trials\nJournal Articles\nResources\nReference Desk\nFind an Expert\nFor You\nWomen\nOlder Adults\nPatient Handouts\nSummary\nWhat is diabetes?\nDiabetes, also known as diabetes mellitus, is a disease in which your\nblood glucose\n, or blood sugar, levels are too high. Glucose is your body's main source of energy. Your body can make glucose, but it also comes from the food you eat. Insulin is a\nhormone\nmade by your pancreas. Insulin helps move glucose from your bloodstream into your cells, where it can be used for energy.",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/diabetes.html"
+    },
+    {
+      "text": "hormone\nmade by your pancreas. Insulin helps move glucose from your bloodstream into your cells, where it can be used for energy.\nIf you have diabetes, your body can't make insulin, can't use insulin as well as it should, or both. Too much glucose stays in your blood and doesn't reach your cells. This can cause glucose levels to get too high. Over time, high blood glucose levels can lead to\nserious health conditions\n. But you can take steps to manage your diabetes and try to prevent these health problems.\nWhat are the types of diabetes?\nThere are different types of diabetes:\nType 1 diabetes\n. If you have type 1 diabetes, your body makes little or no insulin. It happens when your\nimmune system\nattacks and destroys the cells that produce insulin.\nType 2 diabetes\n.",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/diabetes.html"
+    },
+    {
+      "text": "immune system\nattacks and destroys the cells that produce insulin.\nType 2 diabetes\n.\nThis is the most common form of diabetes. If you have type 2 diabetes, your body may still be able to make insulin, but your cells don't respond well to insulin. They can't easily take up enough glucose from your blood.\nGestational diabetes\n.\nThis is a form of diabetes that develops during pregnancy. It happens when your body can't make the extra insulin it needs during pregnancy.\nWhat causes diabetes?\nThe different types of diabetes have different causes:\nResearchers think\ntype 1 diabetes\nis caused by\ngenes\nand factors in the environment that might trigger the disease.\nType 2 diabetes\nis caused by several factors, including lifestyle factors and\ngenes\n. The lifestyle factors include",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/diabetes.html"
+    },
+    {
+      "text": "Type 2 diabetes\nis caused by several factors, including lifestyle factors and\ngenes\n. The lifestyle factors include\nnot being physically active\nand being overweight or having\nobesity\n.\nResearchers think\ngestational diabetes\nis caused by the hormonal changes of pregnancy along with\ngenetic\nand lifestyle factors.\nWho is more likely to develop diabetes?\nThe different types of diabetes have different risk factors:\nYou can develop\ntype 1 diabetes\nat any age, but it most often starts in childhood. Having a parent or sibling with type 1 diabetes may increase your chance of developing it.\nYou are at higher risk of developing\ntype 2 diabetes\nif you:\nAre overweight or have obesity.\nAre over age 35.\nChildren, teenagers,",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/diabetes.html"
+    },
+    {
+      "text": "You are at higher risk of developing\ntype 2 diabetes\nif you:\nAre overweight or have obesity.\nAre over age 35.\nChildren, teenagers,\nand younger adults can get diabetes, but it is more common in middle-aged and older adults.\nHave a family history of diabetes.\nHave\nprediabetes\n. This means that your blood glucose is higher than normal, but it's not high enough to be called diabetes.\nHad gestational diabetes.\nHave given birth to a baby weighing 9 pounds or more.\nAre African American, American Indian, Asian American, Hispanic/Latino, or Pacific Islander.\nAre not physically active.\nHave certain other health conditions, such as\nhigh blood pressure\nor\npolycystic ovary syndrome\n(PCOS).\nYou are at higher risk of developing\ngestational diabetes\nif you:\nAre overweight or have obesity.",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/diabetes.html"
+    },
+    {
+      "text": "or\npolycystic ovary syndrome\n(PCOS).\nYou are at higher risk of developing\ngestational diabetes\nif you:\nAre overweight or have obesity.\nHave a family history of diabetes.\nHad gestational diabetes in a previous pregnancy.\nHave given birth to a baby weighing 9 pounds or more.\nHave polycystic ovary syndrome (PCOS).\nAre African American, Hispanic/Latino, American Indian, Alaska Native, Native Hawaiian, or Pacific Islander.\nWhat are the symptoms of diabetes?\nThe symptoms of diabetes may include:\nFeeling very thirsty\nFeeling very hungry\nUrinating (peeing) more often, including at night\nFatigue\nBlurry vision\nNumbness or tingling in the feet or hands\nSores that do not heal\nLosing weight without trying\nBut it's important to know that your symptoms may vary, depending on which type you have:",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/diabetes.html"
+    },
+    {
+      "text": "Sores that do not heal\nLosing weight without trying\nBut it's important to know that your symptoms may vary, depending on which type you have:\nThe symptoms of\ntype 1 diabetes\nusually come on quickly and can be severe.\nWith\ntype 2 diabetes,\nthe symptoms often develop slowly, over several years. The symptoms can be so mild that you might not even notice them.\nGestational diabetes\noften has no symptoms. If you do have symptoms, they may be mild. If you are pregnant, you will usually be screened for this condition between 24 and 28 weeks of pregnancy.\nHow is diabetes diagnosed?\nTo find out if you have diabetes, your health care provider will use one or more\nglucose blood tests\n. There are several types, including the\nA1C test\n.\nWhat are the treatments for diabetes?",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/diabetes.html"
+    },
+    {
+      "text": "glucose blood tests\n. There are several types, including the\nA1C test\n.\nWhat are the treatments for diabetes?\nTreatment for diabetes involves managing your blood glucose levels:\nIf you have\ntype 1 diabetes,\nyou will need to take daily doses of insulin, either by injection or through a special pump. Some people also need to take another type of\ndiabetes medicine\nthat works with insulin.\nIf you have\ntype 2 diabetes,\nyou may be able to manage or even reverse it by making\nlifestyle changes\n. These include eating a\nhealthy diet\n,\nstaying at healthy weight\n, and\ngetting regular physical activity\n. Some people also need to take diabetes medicines to manage their diabetes.\nIf you have\ngestational diabetes,",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/diabetes.html"
+    },
+    {
+      "text": "getting regular physical activity\n. Some people also need to take diabetes medicines to manage their diabetes.\nIf you have\ngestational diabetes,\nyou may be able to lower your glucose levels by eating a healthy diet and getting regular exercise. But be sure to talk to your provider about your treatment options. Gestational diabetes usually goes away after you give birth. But you will have a higher risk of developing type 2 diabetes later.\nChecking your blood glucose levels is also an important part of managing your diabetes. Ask your provider about the best way to check your blood glucose level and how often you should check it.\nCan diabetes be prevented?\nType 1 diabetes\ncan't be prevented.\nYou may be able to delay or prevent\ntype 2 diabetes",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/diabetes.html"
+    },
+    {
+      "text": "Can diabetes be prevented?\nType 1 diabetes\ncan't be prevented.\nYou may be able to delay or prevent\ntype 2 diabetes\nthrough the same lifestyle changes that are used to manage diabetes (eating a healthy diet, staying at a healthy weight, and getting regular physical activity). These lifestyle changes may also help prevent\ngestational diabetes\n.\nNIH: National Institute of Diabetes and Digestive and Kidney Diseases\nStart Here\nManaging Diabetes\n(National Institute of Diabetes and Digestive and Kidney Diseases)\nAlso in\nSpanish\nWhat is Diabetes?\n(National Institute of Diabetes and Digestive and Kidney Diseases)\nAlso in\nSpanish\nDiagnosis and Tests\nA1C: MedlinePlus Health Topic\n(National Library of Medicine)\nAlso in\nSpanish\nAt-Home Medical Tests\n(National Library of Medicine)\nAlso in\nSpanish",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/diabetes.html"
+    },
+    {
+      "text": "A1C: MedlinePlus Health Topic\n(National Library of Medicine)\nAlso in\nSpanish\nAt-Home Medical Tests\n(National Library of Medicine)\nAlso in\nSpanish\nBlood Glucose Test\n(National Library of Medicine)\nAlso in\nSpanish\nDiabetes Tests and Diagnosis\n(National Institute of Diabetes and Digestive and Kidney Diseases)\nAlso in\nSpanish\nGlucagon Blood Test\n(National Library of Medicine)\nAlso in\nSpanish\nGlucose in Urine Test\n(National Library of Medicine)\nAlso in\nSpanish\nKetones in Blood\n(National Library of Medicine)\nAlso in\nSpanish\nKetones in Urine\n(National Library of Medicine)\nAlso in\nSpanish\nPrevention and Risk Factors\nHow to Prevent Diabetes: MedlinePlus Health Topic\n(National Library of Medicine)\nAlso in\nSpanish\nSurprising Truth about Prediabetes\n(Centers for Disease Control and Prevention)",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/diabetes.html"
+    },
+    {
+      "text": "(National Library of Medicine)\nAlso in\nSpanish\nSurprising Truth about Prediabetes\n(Centers for Disease Control and Prevention)\nAlso in\nSpanish\nTreatments and Therapies\nDiabetes Medicines: MedlinePlus Health Topic\n(National Library of Medicine)\nAlso in\nSpanish\nLiving With\nChanging Your Habits for Better Health\n(National Institute of Diabetes and Digestive and Kidney Diseases)\nAlso in\nSpanish\nDiabetes and Digestion\n(American Heart Association)\nDiabetes and Mental Health\n(Centers for Disease Control and Prevention)\nAlso in\nSpanish\nDiabetic Diet: MedlinePlus Health Topic\n(National Library of Medicine)\nAlso in\nSpanish\nDKA: Signs, Symptoms, and Treatment\n(American Diabetes Association)\nHealthy Weight\n(Centers for Disease Control and Prevention)\nAlso in\nSpanish\nManaging Diabetes in the Heat",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/diabetes.html"
+    },
+    {
+      "text": "(American Diabetes Association)\nHealthy Weight\n(Centers for Disease Control and Prevention)\nAlso in\nSpanish\nManaging Diabetes in the Heat\n(Centers for Disease Control and Prevention)\nAlso in\nSpanish\nMonitoring\n(Association of Diabetes Care and Education Specialists)\n-\nPDF\nTake Diabetes to Heart\n(National Heart, Lung, and Blood Institute)\n-\nPDF\nTips for Traveling with Diabetes\n(Centers for Disease Control and Prevention)\nAlso in\nSpanish\nYour Diabetes Care Team\n(Centers for Disease Control and Prevention)\nAlso in\nSpanish\nYour Health Care Team\n(American Diabetes Association)\nRelated Issues\nA1C Test and Race/Ethnicity\n(National Institute of Diabetes and Digestive and Kidney Diseases)\nChronic Kidney Disease, Diabetes, and Heart Disease\n(Centers for Disease Control and Prevention)",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/diabetes.html"
+    },
+    {
+      "text": "Chronic Kidney Disease, Diabetes, and Heart Disease\n(Centers for Disease Control and Prevention)\nHealth Consequences of Early Exposure to Sugar\n(National Institutes of Health)\nAlso in\nSpanish\nHealthy Living with Diabetes\n(National Institute of Diabetes and Digestive and Kidney Diseases)\nAlso in\nSpanish\nPeople at Higher Risk of Flu Complications\n(Centers for Disease Control and Prevention)\nPrediabetes:MedlinePlus Health Topic\n(National Library of Medicine)\nAlso in\nSpanish\nSymptoms and Causes of Diabetes\n(National Institute of Diabetes and Digestive and Kidney Diseases)\nAlso in\nSpanish\nVaccinations for Adults with Diabetes\n(Immunization Action Coalition)\n-\nPDF\nGenetics\n17q12 deletion syndrome: MedlinePlus Genetics\n(National Library of Medicine)",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/diabetes.html"
+    },
+    {
+      "text": "(Immunization Action Coalition)\n-\nPDF\nGenetics\n17q12 deletion syndrome: MedlinePlus Genetics\n(National Library of Medicine)\n6q24-related transient neonatal diabetes mellitus: MedlinePlus Genetics\n(National Library of Medicine)\nCongenital generalized lipodystrophy: MedlinePlus Genetics\n(National Library of Medicine)\nFamilial partial lipodystrophy: MedlinePlus Genetics\n(National Library of Medicine)\nGenetics of Diabetes\n(American Diabetes Association)\nMaternally inherited diabetes and deafness: MedlinePlus Genetics\n(National Library of Medicine)\nMaturity-onset diabetes of the young: MedlinePlus Genetics\n(National Library of Medicine)\nMonogenic Diabetes (MODY & Neonatal Diabetes Mellitus)\n(National Institute of Diabetes and Digestive and Kidney Diseases)",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/diabetes.html"
+    },
+    {
+      "text": "Monogenic Diabetes (MODY & Neonatal Diabetes Mellitus)\n(National Institute of Diabetes and Digestive and Kidney Diseases)\nThiamine-responsive megaloblastic anemia syndrome: MedlinePlus Genetics\n(National Library of Medicine)\nType A insulin resistance syndrome: MedlinePlus Genetics\n(National Library of Medicine)\nWolfram syndrome: MedlinePlus Genetics\n(National Library of Medicine)\nTest Your Knowledge\nType 2 Diabetes Facts Quiz\n(Medical Encyclopedia)\nAlso in\nSpanish\nStatistics and Research\nDiabetes in America\n(National Institute of Diabetes and Digestive and Kidney Diseases)\nFastStats: Diabetes\n(National Center for Health Statistics)\nNational Diabetes Statistics Report\n(Centers for Disease Control and Prevention)\nUnited States Diabetes Surveillance System",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/diabetes.html"
+    },
+    {
+      "text": "National Diabetes Statistics Report\n(Centers for Disease Control and Prevention)\nUnited States Diabetes Surveillance System\n(Centers for Disease Control and Prevention)\nClinical Trials\nClinicalTrials.gov: Diabetes Mellitus\n(National Institutes of Health)\nJournal Articles\nReferences and abstracts from MEDLINE/PubMed (National Library of Medicine)\nArticle: Edoxaban antithrombotic therapy in diabetic patients with atrial fibrillation and stable...\nArticle: Postprandial ultra-fast insulin versus mealtime fast-acting insulin in adults with cystic...\nArticle: Housing Instability Associated With Cost-Related Nonadherence and Financial Toxicity in People...\nDiabetes -- see more articles\nReference Desk\nCommon Terms\n(American Diabetes Association)\nFind an Expert\nAmerican Diabetes Association",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/diabetes.html"
+    },
+    {
+      "text": "Diabetes -- see more articles\nReference Desk\nCommon Terms\n(American Diabetes Association)\nFind an Expert\nAmerican Diabetes Association\nNational Institute of Diabetes and Digestive and Kidney Diseases\nSearch Diabetes Educator Directory\n(Association of Diabetes Care and Education Specialists)\nWomen\nDiabetes\n(Department of Health and Human Services, Office on Women's Health)\nOlder Adults\nDiabetes\n(AGS Health in Aging Foundation)\nDiabetes in Older People\n(National Institute on Aging)\nAlso in\nSpanish\nPatient Handouts\nA1C test\n(Medical Encyclopedia)\nAlso in\nSpanish\nBlood sugar test\n(Medical Encyclopedia)\nAlso in\nSpanish\nDiabetes\n(Medical Encyclopedia)\nAlso in\nSpanish\nDiabetes - keeping active\n(Medical Encyclopedia)\nAlso in\nSpanish\nDiabetes - when you are sick\n(Medical Encyclopedia)\nAlso in",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/diabetes.html"
+    },
+    {
+      "text": "Also in\nSpanish\nDiabetes - keeping active\n(Medical Encyclopedia)\nAlso in\nSpanish\nDiabetes - when you are sick\n(Medical Encyclopedia)\nAlso in\nSpanish\nDiabetes and exercise\n(Medical Encyclopedia)\nAlso in\nSpanish\nDiabetes myths and facts\n(Medical Encyclopedia)\nAlso in\nSpanish\nDiabetes tests and checkups\n(Medical Encyclopedia)\nAlso in\nSpanish\nGiving an insulin injection\n(Medical Encyclopedia)\nAlso in\nSpanish\nHigh blood sugar - self-care\n(Medical Encyclopedia)\nAlso in\nSpanish\nLow blood sugar - self-care\n(Medical Encyclopedia)\nAlso in\nSpanish\nTopic Image\nMEDICAL ENCYCLOPEDIA\nA1C test\nAnti-insulin antibody test\nBlood sugar test\nDiabetes\nDiabetes - keeping active\nDiabetes - when you are sick\nDiabetes and exercise\nDiabetes myths and facts\nDiabetes tests and checkups\nGiving an insulin injection",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/diabetes.html"
+    },
+    {
+      "text": "Diabetes - when you are sick\nDiabetes and exercise\nDiabetes myths and facts\nDiabetes tests and checkups\nGiving an insulin injection\nGlucose tolerance test - non-pregnant\nGlucose urine test\nHigh blood sugar - self-care\nImmunizations for people with diabetes\nInsulin C-peptide test\nKetones blood test\nKetones urine test\nLactic acidosis\nLow blood sugar - self-care\nPreparing for surgery when you have diabetes\nShow More\nShow Less\nRelated Health Topics\nA1C\nBlood Glucose\nDiabetes and Pregnancy\nDiabetes Complications\nDiabetes in Children and Teens\nDiabetes Medicines\nDiabetes Type 1\nDiabetes Type 2\nDiabetic Diet\nDiabetic Eye Problems\nDiabetic Foot\nDiabetic Heart Disease\nDiabetic Kidney Problems\nDiabetic Nerve Problems\nHyperglycemia\nHypoglycemia\nIslet Cell Transplantation\nPancreas Transplantation",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/diabetes.html"
+    },
+    {
+      "text": "Diabetic Kidney Problems\nDiabetic Nerve Problems\nHyperglycemia\nHypoglycemia\nIslet Cell Transplantation\nPancreas Transplantation\nPrediabetes\nNational Institutes of Health\nThe primary NIH organization for research on\nDiabetes\nis the\nNational Institute of Diabetes and Digestive and Kidney Diseases\nOther Languages\nFind\nhealth information in languages other than English\non\nDiabetes\nDisclaimers\nMedlinePlus links to health information from the National Institutes of Health and other federal government agencies. MedlinePlus also links to health information from non-government Web sites. See our\ndisclaimer\nabout external links and our\nquality guidelines\n.",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/diabetes.html"
+    },
+    {
+      "text": "disclaimer\nabout external links and our\nquality guidelines\n.\nThe information on this site should not be used as a substitute for professional medical care or advice. Contact a health care provider if you have questions about your health.\nLearn how to cite this page",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/diabetes.html"
+    },
+    {
+      "text": "Skip navigation\nOfficial websites use .gov\nA\n.gov\nwebsite belongs to an official government\n              organization in the United States.\nSecure .gov websites use HTTPS\nA\nlock\n(\nLock\nLocked padlock icon\n) or\nhttps://\nmeans you\u00e2\u0080\u0099ve safely connected to\n              the .gov website. Share sensitive information only on official,\n              secure websites.\nYou Are Here:\nHome\n\u2192\nHealth Topics\n\u2192\nHigh Blood Pressure\nURL of this page: https://medlineplus.gov/highbloodpressure.html\nHigh Blood Pressure\nAlso called: Benign essential hypertension, Essential hypertension, HBP, HTN, Hypertension\nOn this page\nBasics\nSummary\nStart Here\nSymptoms\nDiagnosis and Tests\nPrevention and Risk Factors\nTreatments and Therapies\nLearn More\nLiving With\nRelated Issues\nSpecifics\nGenetics\nSee, Play and Learn",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/highbloodpressure.html"
+    },
+    {
+      "text": "Diagnosis and Tests\nPrevention and Risk Factors\nTreatments and Therapies\nLearn More\nLiving With\nRelated Issues\nSpecifics\nGenetics\nSee, Play and Learn\nVideos and Tutorials\nTest Your Knowledge\nResearch\nStatistics and Research\nClinical Trials\nJournal Articles\nResources\nFind an Expert\nFor You\nChildren\nTeenagers\nWomen\nOlder Adults\nPatient Handouts\nSummary\nWhat is blood pressure?\nBlood pressure is the force of your blood pushing against the walls of your arteries. Each time your heart beats, it pumps blood into the arteries. Your blood pressure is highest when your heart beats, pumping the blood. This is called systolic pressure. When your heart is at rest, between beats, your blood pressure falls. This is called diastolic pressure.",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/highbloodpressure.html"
+    },
+    {
+      "text": "Your blood pressure reading uses these two numbers. Usually the systolic number comes before or above the diastolic number. For example, 120/80 means a systolic of 120 and a diastolic of 80.\nHow is high blood pressure diagnosed?\nHigh blood pressure usually has no symptoms. So the only way to find out if you have it is to get regular blood pressure checks from your health care provider. Your provider will use a gauge, a stethoscope or electronic sensor, and a blood pressure cuff. They will take two or more readings at separate appointments before making a diagnosis.\nBlood Pressure Category\nSystolic Blood Pressure\nDiastolic Blood Pressure\nNormal\nLess than 120\nand\nLess than 80\nElevated\n120 - 129\nand\nLess than 80\nHigh Blood Pressure Stage 1\n130 - 139\nor\n80 - 89\nHigh Blood Pressure Stage 2",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/highbloodpressure.html"
+    },
+    {
+      "text": "Less than 120\nand\nLess than 80\nElevated\n120 - 129\nand\nLess than 80\nHigh Blood Pressure Stage 1\n130 - 139\nor\n80 - 89\nHigh Blood Pressure Stage 2\n140 or higher\nor\n90 or higher\nHypertensive Crisis (dangerously high blood pressure - seek medical care right away)\nHigher than 180\nand\nHigher than 120\nFor children and teens, the health care provider compares the blood pressure reading to what is normal for other kids who are the same age, height, and sex.\nWhat are the different types of high blood pressure?\nThere are two main types of high blood pressure:\nPrimary,\nor essential, high blood pressure. This is the most common type of high blood pressure. For most people who get this kind of blood pressure, it develops over time as you get older.\nSecondary",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/highbloodpressure.html"
+    },
+    {
+      "text": "Secondary\nhigh blood pressure. This is caused by another medical condition or use of certain medicines. It usually gets better after you treat that condition or stop taking the medicines that are causing it.\nWhy do I need to worry about high blood pressure?\nWhen your blood pressure stays high over time, it causes the heart to pump harder and work overtime, possibly leading to serious health problems such as\nheart attack\n,\nstroke\n,\nheart failure\n, and\nkidney failure\n.\nWhat are the treatments for high blood pressure?\nTreatments for high blood pressure include\nheart-healthy lifestyle changes\nand\nmedicines\n.",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/highbloodpressure.html"
+    },
+    {
+      "text": ".\nWhat are the treatments for high blood pressure?\nTreatments for high blood pressure include\nheart-healthy lifestyle changes\nand\nmedicines\n.\nYou will work with your provider to come up with a treatment plan. It may include only the lifestyle changes. These changes, such as heart-healthy eating and exercise, can be very effective. But sometimes the changes do not control or lower your high blood pressure. Then you may need to take medicine. There are different types of blood pressure medicines. Some people need to take more than one type.\nIf your high blood pressure is caused by another medical condition or medicine, treating that condition or stopping the medicine may lower your blood pressure.\nNIH: National Heart, Lung, and Blood Institute\nStart Here\nHigh Blood Pressure (Hypertension)",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/highbloodpressure.html"
+    },
+    {
+      "text": "NIH: National Heart, Lung, and Blood Institute\nStart Here\nHigh Blood Pressure (Hypertension)\n(Food and Drug Administration)\nAlso in\nSpanish\nTop 10 Things to Know about the AHA/ACC High Blood Pressure Guideline\n(American Heart Association)\nWhat Is High Blood Pressure?\n(American Heart Association)\nWhat Is High Blood Pressure?\n(National Heart, Lung, and Blood Institute)\nAlso in\nSpanish\nSymptoms\n9 Surprisingly Subtle Symptoms of High Blood Pressure\n(National Council on Aging)\nDiagnosis and Tests\nAldosterone Test\n(National Library of Medicine)\nAlso in\nSpanish\nBlood Pressure Test\n(Mayo Foundation for Medical Education and Research)\nChloride Blood Test\n(National Library of Medicine)\nAlso in\nSpanish\nHow to Take Your Blood Pressure at Home\n(American College of Cardiology)\n-\nPDF",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/highbloodpressure.html"
+    },
+    {
+      "text": "Chloride Blood Test\n(National Library of Medicine)\nAlso in\nSpanish\nHow to Take Your Blood Pressure at Home\n(American College of Cardiology)\n-\nPDF\nMeasuring Blood Pressure\n(National Library of Medicine)\nAlso in\nSpanish\nRenin Test\n(National Library of Medicine)\nAlso in\nSpanish\nPrevention and Risk Factors\nHow to Prevent High Blood Pressure: MedlinePlus Health Topic\n(National Library of Medicine)\nAlso in\nSpanish\nMind Your Risks\n(National Institute of Neurological Disorders and Stroke)\nTreatments and Therapies\nBlood Pressure Medicines: MedlinePlus Health Topic\n(National Library of Medicine)\nAlso in\nSpanish\nLiving With\nDASH Diet: MedlinePlus Health Topic\n(National Library of Medicine)\nAlso in\nSpanish\nGet the Most Out of Home Blood Pressure Monitoring",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/highbloodpressure.html"
+    },
+    {
+      "text": "Living With\nDASH Diet: MedlinePlus Health Topic\n(National Library of Medicine)\nAlso in\nSpanish\nGet the Most Out of Home Blood Pressure Monitoring\n(Mayo Foundation for Medical Education and Research)\nAlso in\nSpanish\nHealthy Blood Pressure for Healthy Hearts: Small Steps to Take Control\n(National Heart, Lung, and Blood Institute)\n-\nPDF\nAlso in\nSpanish\nHealthy Blood Pressure for Healthy Hearts: Tracking Your Numbers\n(National Heart, Lung, and Blood Institute)\n-\nPDF\nAlso in\nSpanish\nSalty Stuff: Salt, Blood Pressure, and Your Health\n(National Institutes of Health)\nShaking the Salt Habit to Lower High Blood Pressure\n(American Heart Association)\nRelated Issues\nAnxiety: A Cause of High Blood Pressure?\n(Mayo Foundation for Medical Education and Research)\nAlso in\nSpanish",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/highbloodpressure.html"
+    },
+    {
+      "text": "Related Issues\nAnxiety: A Cause of High Blood Pressure?\n(Mayo Foundation for Medical Education and Research)\nAlso in\nSpanish\nBlood Pressure: Does It Have a Daily Pattern?\n(Mayo Foundation for Medical Education and Research)\nAlso in\nSpanish\nBlood Pressure: Is It Affected by Cold Weather?\n(Mayo Foundation for Medical Education and Research)\nAlso in\nSpanish\nCommon High Blood Pressure Myths\n(American Heart Association)\nHigh Blood Pressure and Cold Remedies: Which Are Safe?\n(Mayo Foundation for Medical Education and Research)\nAlso in\nSpanish\nHigh Blood Pressure and Kidney Disease\n(National Institute of Diabetes and Digestive and Kidney Diseases)\nAlso in\nSpanish\nHigh Blood Pressure and Sex: Overcome the Challenges\n(Mayo Foundation for Medical Education and Research)\nAlso in\nSpanish",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/highbloodpressure.html"
+    },
+    {
+      "text": "Also in\nSpanish\nHigh Blood Pressure and Sex: Overcome the Challenges\n(Mayo Foundation for Medical Education and Research)\nAlso in\nSpanish\nHigh Blood Pressure, Atrial Fibrillation, and Your Risk of Stroke\n(American Heart Association)\nHow High Blood Pressure Can Lead to Stroke\n(American Heart Association)\nPulse Pressure: An Indicator of Heart Health?\n(Mayo Foundation for Medical Education and Research)\nAlso in\nSpanish\nStress and High Blood Pressure: What's the Connection?\n(Mayo Foundation for Medical Education and Research)\nAlso in\nSpanish\nWhite Coat Hypertension: When Blood Pressure Rises in a Medical Setting\n(Mayo Foundation for Medical Education and Research)\nAlso in\nSpanish\nWrist Blood Pressure Monitors: Are They Accurate?\n(Mayo Foundation for Medical Education and Research)\nAlso in",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/highbloodpressure.html"
+    },
+    {
+      "text": "Also in\nSpanish\nWrist Blood Pressure Monitors: Are They Accurate?\n(Mayo Foundation for Medical Education and Research)\nAlso in\nSpanish\nSpecifics\nEndocrine Related Hypertension\n(Endocrine Society)\nIsolated Systolic Hypertension: A Health Concern?\n(Mayo Foundation for Medical Education and Research)\nAlso in\nSpanish\nSecondary Hypertension\n(Mayo Foundation for Medical Education and Research)\nAlso in\nSpanish\nWhen to Call 911 about High Blood Pressure\n(American Heart Association)\nGenetics\nAldosterone-producing adenoma: MedlinePlus Genetics\n(National Library of Medicine)\nHypertension: MedlinePlus Genetics\n(National Library of Medicine)\nVideos and Tutorials\nBlood pressure\n(Medical Encyclopedia)\nAlso in\nSpanish\nHypertension - overview\n(Medical Encyclopedia)\nAlso in\nSpanish\nTest Your Knowledge",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/highbloodpressure.html"
+    },
+    {
+      "text": "Blood pressure\n(Medical Encyclopedia)\nAlso in\nSpanish\nHypertension - overview\n(Medical Encyclopedia)\nAlso in\nSpanish\nTest Your Knowledge\nBlood Pressure and Lifestyle Quiz\n(Medical Encyclopedia)\nAlso in\nSpanish\nIs High Blood Pressure Affecting Your Health?\n(Medical Encyclopedia)\nAlso in\nSpanish\nStatistics and Research\nHigh Blood Pressure Facts\n(Centers for Disease Control and Prevention)\nSystolic Blood Pressure Intervention Trial (SPRINT) Study\n(National Heart, Lung, and Blood Institute)\nClinical Trials\nClinicalTrials.gov: Hypertension\n(National Institutes of Health)\nClinicalTrials.gov: Prehypertension\n(National Institutes of Health)\nJournal Articles\nReferences and abstracts from MEDLINE/PubMed (National Library of Medicine)",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/highbloodpressure.html"
+    },
+    {
+      "text": "(National Institutes of Health)\nJournal Articles\nReferences and abstracts from MEDLINE/PubMed (National Library of Medicine)\nArticle: Effectiveness of a Sodium Intake Monitoring Smartphone Application (NamakBan) on Clinical...\nArticle: Dietary Fiber Supplementation Reduces Systolic Blood Pressure in High-Risk Patients with...\nArticle: Psychological intervention for disputing irrational beliefs associated with work stress amongst...\nHigh Blood Pressure -- see more articles\nFind an Expert\nAmerican Heart Association\nNational Heart, Lung, and Blood Institute\nChildren\nHypertension (High Blood Pressure) (For Parents)\n(Nemours Foundation)\nAlso in\nSpanish\nTeenagers\nHypertension (High Blood Pressure)\n(Nemours Foundation)\nAlso in\nSpanish\nWomen",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/highbloodpressure.html"
+    },
+    {
+      "text": "(Nemours Foundation)\nAlso in\nSpanish\nTeenagers\nHypertension (High Blood Pressure)\n(Nemours Foundation)\nAlso in\nSpanish\nWomen\nMenopause and High Blood Pressure: What's the Connection?\n(Mayo Foundation for Medical Education and Research)\nAlso in\nSpanish\nOlder Adults\nHigh Blood Pressure (Hypertension)\n(AGS Health in Aging Foundation)\nHigh Blood Pressure and Older Adults\n(National Institute on Aging)\nAlso in\nSpanish\nPatient Handouts\nACE inhibitors\n(Medical Encyclopedia)\nAlso in\nSpanish\nBlood pressure measurement\n(Medical Encyclopedia)\nAlso in\nSpanish\nBlood pressure monitors for home\n(Medical Encyclopedia)\nAlso in\nSpanish\nControlling your high blood pressure\n(Medical Encyclopedia)\nAlso in\nSpanish\nHigh blood pressure - medicine-related\n(Medical Encyclopedia)\nAlso in\nSpanish",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/highbloodpressure.html"
+    },
+    {
+      "text": "(Medical Encyclopedia)\nAlso in\nSpanish\nHigh blood pressure - medicine-related\n(Medical Encyclopedia)\nAlso in\nSpanish\nHigh blood pressure and eye disease\n(Medical Encyclopedia)\nAlso in\nSpanish\nHigh blood pressure in adults - hypertension\n(Medical Encyclopedia)\nAlso in\nSpanish\nHigh blood pressure in children - hypertension\n(Medical Encyclopedia)\nAlso in\nSpanish\nHigh blood pressure medications\n(Medical Encyclopedia)\nAlso in\nSpanish\nHypertensive heart disease\n(Medical Encyclopedia)\nAlso in\nSpanish\nLow-salt diet\n(Medical Encyclopedia)\nAlso in\nSpanish\nMalignant hypertension\n(Medical Encyclopedia)\nAlso in\nSpanish\nRenovascular hypertension\n(Medical Encyclopedia)\nAlso in\nSpanish\nTopic Image\nMEDICAL ENCYCLOPEDIA\nACE inhibitors\nAldosterone blood test\nBlood pressure\nBlood pressure measurement",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/highbloodpressure.html"
+    },
+    {
+      "text": "Also in\nSpanish\nTopic Image\nMEDICAL ENCYCLOPEDIA\nACE inhibitors\nAldosterone blood test\nBlood pressure\nBlood pressure measurement\nBlood pressure monitors for home\nControlling your high blood pressure\nHigh blood pressure - medicine-related\nHigh blood pressure - what to ask your doctor\nHigh blood pressure and eye disease\nHigh blood pressure in adults - hypertension\nHigh blood pressure in children - hypertension\nHigh blood pressure in infants - hypertension\nHigh blood pressure medications\nHypertension - overview\nHypertensive heart disease\nLow-salt diet\nMalignant hypertension\nRenin blood test\nRenovascular hypertension\nShow More\nShow Less\nRelated Health Topics\nBlood Pressure Medicines\nDASH Eating Plan\nHigh Blood Pressure in Pregnancy\nHow to Prevent High Blood Pressure\nLow Blood Pressure",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/highbloodpressure.html"
+    },
+    {
+      "text": "Blood Pressure Medicines\nDASH Eating Plan\nHigh Blood Pressure in Pregnancy\nHow to Prevent High Blood Pressure\nLow Blood Pressure\nNational Institutes of Health\nThe primary NIH organization for research on\nHigh Blood Pressure\nis the\nNational Heart, Lung, and Blood Institute\nOther Languages\nFind\nhealth information in languages other than English\non\nHigh Blood Pressure\nDisclaimers\nMedlinePlus links to health information from the National Institutes of Health and other federal government agencies. MedlinePlus also links to health information from non-government Web sites. See our\ndisclaimer\nabout external links and our\nquality guidelines\n.",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/highbloodpressure.html"
+    },
+    {
+      "text": "disclaimer\nabout external links and our\nquality guidelines\n.\nThe information on this site should not be used as a substitute for professional medical care or advice. Contact a health care provider if you have questions about your health.\nLearn how to cite this page",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/highbloodpressure.html"
+    },
+    {
+      "text": "Skip navigation\nOfficial websites use .gov\nA\n.gov\nwebsite belongs to an official government\n              organization in the United States.\nSecure .gov websites use HTTPS\nA\nlock\n(\nLock\nLocked padlock icon\n) or\nhttps://\nmeans you\u00e2\u0080\u0099ve safely connected to\n              the .gov website. Share sensitive information only on official,\n              secure websites.\nYou Are Here:\nHome\n\u2192\nHealth Topics\n\u2192\nHeart Diseases\nURL of this page: https://medlineplus.gov/heartdiseases.html\nHeart Diseases\nAlso called: Cardiac diseases\nOn this page\nBasics\nSummary\nStart Here\nDiagnosis and Tests\nPrevention and Risk Factors\nTreatments and Therapies\nLearn More\nLiving With\nRelated Issues\nSpecifics\nGenetics\nSee, Play and Learn\nVideos and Tutorials\nTest Your Knowledge\nResearch\nStatistics and Research\nClinical Trials",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/heartdiseases.html"
+    },
+    {
+      "text": "Related Issues\nSpecifics\nGenetics\nSee, Play and Learn\nVideos and Tutorials\nTest Your Knowledge\nResearch\nStatistics and Research\nClinical Trials\nJournal Articles\nResources\nReference Desk\nFind an Expert\nFor You\nChildren\nMen\nWomen\nOlder Adults\nPatient Handouts\nSummary\nWhat is heart disease?\nHeart disease is a general term that includes many types of heart problems. It's a type of cardiovascular disease, which means heart and blood vessel disease.\nHeart disease is the leading cause of death in the United States, but there are ways to prevent and manage many types of heart disease.\nWhat are the types of heart disease?\nThere are many different types of heart disease. Some you may be born with, called\ncongenital heart disease\n. Other types develop during your lifetime.\nCoronary artery disease",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/heartdiseases.html"
+    },
+    {
+      "text": "congenital heart disease\n. Other types develop during your lifetime.\nCoronary artery disease\n(also called coronary heart disease) is the most common type of heart disease. It happens slowly over time when a sticky substance called plaque builds up in the arteries that supply your heart muscle with blood. The plaque narrows or blocks blood flow to the heart muscle and can lead to other heart problems:\nAngina\n- chest pain from lack of blood flow\nHeart attacks\n- when part of the heart muscle dies from loss of blood flow\nHeart failure\n- when your heart can't pump enough blood to meet your body's needs\nArrhythmia\n- a problem with the rate or rhythm of your heartbeat\nOther types of heart diseases may affect your\nheart valves\nor heart muscle (\ncardiomyopathy\n).\nWhat causes heart diseases?",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/heartdiseases.html"
+    },
+    {
+      "text": "Other types of heart diseases may affect your\nheart valves\nor heart muscle (\ncardiomyopathy\n).\nWhat causes heart diseases?\nThe causes of heart disease depend on the type of disease. Some possible causes include lifestyle, genetics, infections, medicines, and other diseases.\nWho is more likely to develop heart diseases?\nThere are many different factors that can make you more likely to develop heart disease. Some of these factors you can change, but others you cannot.\nAge.\nYour risk of heart disease goes up as you get older.\nSex.\nSome factors may affect heart disease risk differently in\nwomen\nthan in men.\nFamily history and genetics.\nA family history of early heart disease raises your risk. And research has shown that some genes are linked to a higher risk of certain heart diseases.",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/heartdiseases.html"
+    },
+    {
+      "text": "Race/ethnicity.\nHeart disease is the leading cause of death in most racial and ethnic groups in the United States. However, certain groups have higher risks than others. This includes Black people, White people, and American Indian/Alaska Native people.\nLifestyle habits.\nOver time, unhealthy lifestyle habits can raise your risk of heart disease. These can include:\nEating a diet high in saturated\nfats\n, refined carbohydrates, and\nsalt\n.\nNot getting\nenough physical activity\n.\nDrinking too much\nalcohol\n.\nSmoking\nand exposure to\nsecondhand smoke\n.\nToo much\nstress\n.\nHaving other medical conditions\ncan raise your risk of heart diseases. These conditions include:\nHigh blood pressure\n.\nHigh\ncholesterol levels\n.\nDiabetes\n.\nObesity\n.\nAutoimmune\nand inflammatory diseases.\nChronic kidney disease\n.",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/heartdiseases.html"
+    },
+    {
+      "text": "High blood pressure\n.\nHigh\ncholesterol levels\n.\nDiabetes\n.\nObesity\n.\nAutoimmune\nand inflammatory diseases.\nChronic kidney disease\n.\nMetabolic syndrome\n.\nWhat are the symptoms of heart disease?\nYour symptoms will depend on the type of heart disease you have. You may not have symptoms at first. In some cases, you may not know you have heart disease until you have a complication such as a heart attack.\nHow are heart diseases diagnosed?\nTo find out if you have heart disease, your health care provider will:\nAsk about your\nmedical history\n, including your symptoms\nAsk about your\nfamily health history\n, including relatives who have had heart disease\nDo a\nphysical exam\nLikely run\nheart tests\nand\nblood tests",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/heartdiseases.html"
+    },
+    {
+      "text": "Ask about your\nfamily health history\n, including relatives who have had heart disease\nDo a\nphysical exam\nLikely run\nheart tests\nand\nblood tests\nIn some cases, your provider may refer you to a cardiologist (a doctor who specializes in heart diseases) for tests, diagnosis, and care.\nWhat are the treatments for heart disease?\nTreatment plans for heart disease depend on the type of heart disease you have, how serious your symptoms are, and what other health conditions you have. Possible treatments may include:\nHeart-healthy lifestyle changes\nMedicines\nProcedures or\nsurgeries\nCardiac rehabilitation\nCan heart diseases be prevented?\nYou may be able to lower your risk of certain heart diseases by making\nheart-healthy lifestyle changes\nand managing any other medical conditions you have.",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/heartdiseases.html"
+    },
+    {
+      "text": "heart-healthy lifestyle changes\nand managing any other medical conditions you have.\nNIH: National Heart, Lung, and Blood Institute\nStart Here\nHeart Disease\n(Mayo Foundation for Medical Education and Research)\nAlso in\nSpanish\nWhat Are Heart Disease and Stroke?\n(American Heart Association)\nAlso in\nSpanish\nYour Guide to Living Well with Heart Disease\n(National Heart, Lung, and Blood Institute)\nDiagnosis and Tests\nCholesterol Levels\n(National Library of Medicine)\nAlso in\nSpanish\nEchocardiography\n(National Library of Medicine)\nAlso in\nSpanish\nHeart Disease Risk Assessment\n(National Library of Medicine)\nAlso in\nSpanish\nHeart Health Tests: MedlinePlus Health Topic\n(National Library of Medicine)\nAlso in\nSpanish\nLipoprotein (a) Blood Test\n(National Library of Medicine)\nAlso in\nSpanish",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/heartdiseases.html"
+    },
+    {
+      "text": "(National Library of Medicine)\nAlso in\nSpanish\nLipoprotein (a) Blood Test\n(National Library of Medicine)\nAlso in\nSpanish\nPicturing the Heart\n(National Institute of Biomedical Imaging and Bioengineering)\nPrevention and Risk Factors\nHeart Disease Risk Factors\n(Centers for Disease Control and Prevention)\nHow to Prevent Heart Disease: MedlinePlus Health Topic\n(National Library of Medicine)\nAlso in\nSpanish\nRisks for Heart Disease and Stroke\n(Department of Health and Human Services)\nTake Action for Your Heart: Get Started!\n(National Heart, Lung, and Blood Institute)\n-\nPDF\nTreatments and Therapies\nBlood Thinners: MedlinePlus Health Topic\n(National Library of Medicine)\nAlso in\nSpanish\nChelation for Coronary Heart Disease: What You Need To Know",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/heartdiseases.html"
+    },
+    {
+      "text": "Blood Thinners: MedlinePlus Health Topic\n(National Library of Medicine)\nAlso in\nSpanish\nChelation for Coronary Heart Disease: What You Need To Know\n(National Center for Complementary and Integrative Health)\nFive Things to Know about Omega-3s for Heart Disease\n(National Center for Complementary and Integrative Health)\nHeart Surgery: MedlinePlus Health Topic\n(National Library of Medicine)\nAlso in\nSpanish\nHerbal Supplements and Heart Medicines May Not Mix\n(Mayo Foundation for Medical Education and Research)\nAlso in\nSpanish\nPacemakers and Implantable Defibrillators: MedlinePlus Health Topic\n(National Library of Medicine)\nAlso in\nSpanish\nTypes of Heart Medications\n(American Heart Association)\nLiving With\nCardiac Rehabilitation: MedlinePlus Health Topic\n(National Library of Medicine)\nAlso in",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/heartdiseases.html"
+    },
+    {
+      "text": "(American Heart Association)\nLiving With\nCardiac Rehabilitation: MedlinePlus Health Topic\n(National Library of Medicine)\nAlso in\nSpanish\nCoping with Feelings\n(American Heart Association)\nHealthy Recipes\n(National Library of Medicine)\nAlso in\nSpanish\nMedication Adherence: Taking Your Meds as Directed\n(American Heart Association)\nMedication Management\n(American Heart Association)\nWhat Is Heart-Healthy Living?\n(National Heart, Lung, and Blood Institute)\nAlso in\nSpanish\nRelated Issues\nAir Pollution, Climate, and Heart Disease\n(American Heart Association)\nAll about Heart Rate\n(American Heart Association)\nChronic Kidney Disease, Diabetes, and Heart Disease\n(Centers for Disease Control and Prevention)\nDiabetes, Heart Disease, and Stroke",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/heartdiseases.html"
+    },
+    {
+      "text": "Chronic Kidney Disease, Diabetes, and Heart Disease\n(Centers for Disease Control and Prevention)\nDiabetes, Heart Disease, and Stroke\n(National Institute of Diabetes and Digestive and Kidney Diseases)\nAlso in\nSpanish\nFlu and People with Heart Disease or History of Stroke\n(Centers for Disease Control and Prevention)\nIllegal Drugs and Heart Disease\n(American Heart Association)\nInflammation and Heart Disease\n(American Heart Association)\nMedication Interactions: Food, Supplements, and Other Drugs\n(American Heart Association)\nMental Health and Heart Health\n(American Heart Association)\nPeople at Higher Risk of Flu Complications\n(Centers for Disease Control and Prevention)\nTake Diabetes to Heart\n(National Heart, Lung, and Blood Institute)\n-\nPDF\nSpecifics\nBlack People, Heart Disease and Stroke",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/heartdiseases.html"
+    },
+    {
+      "text": "Take Diabetes to Heart\n(National Heart, Lung, and Blood Institute)\n-\nPDF\nSpecifics\nBlack People, Heart Disease and Stroke\n(American Heart Association)\nCardiac Sarcoidosis\n(Johns Hopkins Medicine)\nEnlarged Heart\n(Mayo Foundation for Medical Education and Research)\nAlso in\nSpanish\nLeft Ventricular Hypertrophy\n(Mayo Foundation for Medical Education and Research)\nAlso in\nSpanish\nMyocardial Bridge\n(Texas Heart Institute)\nAlso in\nSpanish\nMyocardial Ischemia\n(Mayo Foundation for Medical Education and Research)\nAlso in\nSpanish\nTop 10 Myths about Cardiovascular Disease\n(American Heart Association)\nGenetics\nFamilial HDL deficiency: MedlinePlus Genetics\n(National Library of Medicine)\nTangier disease: MedlinePlus Genetics\n(National Library of Medicine)\nWilliams syndrome: MedlinePlus Genetics",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/heartdiseases.html"
+    },
+    {
+      "text": "(National Library of Medicine)\nTangier disease: MedlinePlus Genetics\n(National Library of Medicine)\nWilliams syndrome: MedlinePlus Genetics\n(National Library of Medicine)\nVideos and Tutorials\n3 Delicious Heart Healthy Recipes\n(National Heart, Lung, and Blood Institute)\nBlood flow\n(Medical Encyclopedia)\nAlso in\nSpanish\nCardiovascular system\n(Medical Encyclopedia)\nAlso in\nSpanish\nTest Your Knowledge\nHeart Palpitations Quiz\n(Medical Encyclopedia)\nAlso in\nSpanish\nStatistics and Research\nAbout the Atlas of Heart Disease and Stroke\n(Centers for Disease Control and Prevention)\nFastStats: Heart Disease\n(National Center for Health Statistics)\nHeart and Stroke Statistics\n(American Heart Association)\nHeart Disease Facts\n(Centers for Disease Control and Prevention)",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/heartdiseases.html"
+    },
+    {
+      "text": "Heart and Stroke Statistics\n(American Heart Association)\nHeart Disease Facts\n(Centers for Disease Control and Prevention)\nRacial and Ethnic Dispartities in Heart Disease\n(National Center for Health Statistics)\n-\nPDF\nWhat the Latest Heart Disease and Stroke Numbers Mean for Your Health\n(American Heart Association)\nClinical Trials\nClinicalTrials.gov: Cardiovascular Diseases\n(National Institutes of Health)\nClinicalTrials.gov: Heart Diseases\n(National Institutes of Health)\nJournal Articles\nReferences and abstracts from MEDLINE/PubMed (National Library of Medicine)\nArticle: Association of long-term depressive burden with incident cardiometabolic multimorbidity: a prospective...\nArticle: The role of macrophages in cardiac diseases: a review of the...",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/heartdiseases.html"
+    },
+    {
+      "text": "Article: The role of macrophages in cardiac diseases: a review of the...\nArticle: Association of childhood loneliness with incident hypertension, heart disease, and stroke...\nHeart Diseases -- see more articles\nReference Desk\nHeart Anatomy\n(Texas Heart Institute)\nAlso in\nSpanish\nHeart Information Center\n(Texas Heart Institute)\nAlso in\nSpanish\nHow the Heart Works\n(National Heart, Lung, and Blood Institute)\nAlso in\nSpanish\nFind an Expert\nAmerican Heart Association\nDoctor Finder (Database of Interventional Radiologists)\n(Society of Interventional Radiology)\nNational Heart, Lung, and Blood Institute\nChildren\nHeart Disease (For Kids)\n(Nemours Foundation)\nAlso in\nSpanish\nVentricular Assist Device (For Parents)\n(Nemours Foundation)\nAlso in\nSpanish\nMen\nAbout Men and Heart Disease",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/heartdiseases.html"
+    },
+    {
+      "text": "(Nemours Foundation)\nAlso in\nSpanish\nVentricular Assist Device (For Parents)\n(Nemours Foundation)\nAlso in\nSpanish\nMen\nAbout Men and Heart Disease\n(Centers for Disease Control and Prevention)\nWomen\nHeart Disease in Women: MedlinePlus Health Topic\n(National Library of Medicine)\nAlso in\nSpanish\nOlder Adults\nHeart Health\n(National Institute on Aging)\nPatient Handouts\nAspirin and heart disease\n(Medical Encyclopedia)\nAlso in\nSpanish\nBeing active when you have heart disease\n(Medical Encyclopedia)\nAlso in\nSpanish\nElectrocardiogram\n(Medical Encyclopedia)\nAlso in\nSpanish\nExercise stress test\n(Medical Encyclopedia)\nAlso in\nSpanish\nHeart disease - risk factors\n(Medical Encyclopedia)\nAlso in\nSpanish\nHeart disease and depression\n(Medical Encyclopedia)\nAlso in\nSpanish",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/heartdiseases.html"
+    },
+    {
+      "text": "Spanish\nHeart disease - risk factors\n(Medical Encyclopedia)\nAlso in\nSpanish\nHeart disease and depression\n(Medical Encyclopedia)\nAlso in\nSpanish\nKnow the Difference: Cardiovascular Disease, Heart Disease, and Coronary Heart Disease\n(National Heart, Lung, and Blood Institute)\n-\nPDF\nUnderstanding cardiovascular disease\n(Medical Encyclopedia)\nAlso in\nSpanish\nWarning signs and symptoms of heart disease\n(Medical Encyclopedia)\nAlso in\nSpanish\nTopic Image\nMEDICAL ENCYCLOPEDIA\nAging changes in the heart and blood vessels\nAspirin and heart disease\nAtrial myxoma\nBeing active when you have heart disease\nBlood flow\nC-reactive protein\nCardiac amyloidosis\nCardiovascular system\nCPK isoenzymes test\nHeart and vascular services\nHeart disease - risk factors\nHeart disease and depression",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/heartdiseases.html"
+    },
+    {
+      "text": "Cardiac amyloidosis\nCardiovascular system\nCPK isoenzymes test\nHeart and vascular services\nHeart disease - risk factors\nHeart disease and depression\nHeart disease and intimacy\nHeart palpitations\nMyocardial contusion\nPulse\nPulse - bounding\nSimple, heart-smart substitutions\nSwan-Ganz - right heart catheterization\nUnderstanding cardiovascular disease\nVentricular assist device\nVLDL test\nWarning signs and symptoms of heart disease\nShow More\nShow Less\nRelated Health Topics\nAngina\nArrhythmia\nCardiac Rehabilitation\nCardiomyopathy\nChest Pain\nCongenital Heart Defects\nCoronary Artery Disease\nDiabetic Heart Disease\nEndocarditis\nHeart Attack\nHeart Failure\nHeart Health Tests\nHeart Surgery\nHeart Valve Diseases\nHow to Prevent Heart Disease\nPericardial Disorders\nSudden Cardiac Arrest",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/heartdiseases.html"
+    },
+    {
+      "text": "Heart Failure\nHeart Health Tests\nHeart Surgery\nHeart Valve Diseases\nHow to Prevent Heart Disease\nPericardial Disorders\nSudden Cardiac Arrest\nNational Institutes of Health\nThe primary NIH organization for research on\nHeart Diseases\nis the\nNational Heart, Lung, and Blood Institute\nOther Languages\nFind\nhealth information in languages other than English\non\nHeart Diseases\nDisclaimers\nMedlinePlus links to health information from the National Institutes of Health and other federal government agencies. MedlinePlus also links to health information from non-government Web sites. See our\ndisclaimer\nabout external links and our\nquality guidelines\n.",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/heartdiseases.html"
+    },
+    {
+      "text": "disclaimer\nabout external links and our\nquality guidelines\n.\nThe information on this site should not be used as a substitute for professional medical care or advice. Contact a health care provider if you have questions about your health.\nLearn how to cite this page",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/heartdiseases.html"
+    },
+    {
+      "text": "Skip navigation\nOfficial websites use .gov\nA\n.gov\nwebsite belongs to an official government\n              organization in the United States.\nSecure .gov websites use HTTPS\nA\nlock\n(\nLock\nLocked padlock icon\n) or\nhttps://\nmeans you\u00e2\u0080\u0099ve safely connected to\n              the .gov website. Share sensitive information only on official,\n              secure websites.\nYou Are Here:\nHome\n\u2192\nHealth Topics\n\u2192\nNutrition\nURL of this page: https://medlineplus.gov/nutrition.html\nNutrition\nOn this page\nBasics\nSummary\nStart Here\nLearn More\nRelated Issues\nSpecifics\nSee, Play and Learn\nHealth Check Tools\nTest Your Knowledge\nResearch\nStatistics and Research\nClinical Trials\nJournal Articles\nResources\nReference Desk\nFind an Expert\nFor You\nMen\nWomen\nPatient Handouts\nSummary\nWhat is nutrition?",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/nutrition.html"
+    },
+    {
+      "text": "Clinical Trials\nJournal Articles\nResources\nReference Desk\nFind an Expert\nFor You\nMen\nWomen\nPatient Handouts\nSummary\nWhat is nutrition?\nGood nutrition means choosing foods and drinks that support your health. It involves regularly eating healthy foods that give your body the energy and nutrients it needs every day. Nutrients include\nproteins\n,\ncarbohydrates\n,\nfats\n,\nvitamins\n,\nminerals\n,\nand\nwater\n. Healthy eating can look different depending on your preferences, cultural traditions, and budget.\nWhy is good nutrition important?\nGood nutrition helps keep you healthy throughout your life, whether you are a\nbaby\n,\ntoddler\n,\nchild\n, adult, or\nolder adult\n. It can help you:\nStay at a\nhealthy weight\n.\nChoosing balanced foods and drinks can help you reach and stay at a healthy weight.",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/nutrition.html"
+    },
+    {
+      "text": "older adult\n. It can help you:\nStay at a\nhealthy weight\n.\nChoosing balanced foods and drinks can help you reach and stay at a healthy weight.\nLower your risk of serious health problems.\nHealthy eating reduces the risk of health problems such as\nheart disease\n,\ntype 2 diabetes\n,\nobesity\n, and some\ncancers\n.\nKeep your heart healthy.\nEating heart-healthy foods can help\nreduce blood pressure\nand\nheart disease\n.\nImprove your mood.\nNutritious foods can help improve your mood and help you feel better.\nSupport growth and keep your body working well.\nThat's because nutrients are essential for your body to grow, repair tissues, and stay healthy.\nDoes good nutrition mean following a strict diet?",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/nutrition.html"
+    },
+    {
+      "text": "That's because nutrients are essential for your body to grow, repair tissues, and stay healthy.\nDoes good nutrition mean following a strict diet?\nYou don't need a strict diet to eat well. You can enjoy a wide variety of foods, including some favorites that may be less healthy. The key is not to eat too much of those foods or have them too often. You can balance them with healthier choices and\nregular physical activity\n.\nWhat are the keys to good nutrition?\nGood nutrition isn't one-size-fits all. There's no single diet or calorie amount that works for everyone. Your needs depend on your age, sex, activity level, health conditions, and health goals. You can ask your health care provider about a diet that works for you. They may refer you to a dietician for specialized recommendations.",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/nutrition.html"
+    },
+    {
+      "text": "In general, a healthy eating plan includes:\nEating a variety of foods, including lots of vegetables, fruits, and whole-grain products\nChoosing lean meats, poultry, fish, beans, and low-fat dairy products\nGetting enough\nfiber\nDrinking plenty of\nwater\nLimiting\nsalt\n, added sugars,\nalcohol\n, and saturated fat\nMaking sure that you get enough nutrients, especially\ncalcium\n,\nvitamin D\n, and\npotassium\nUsing\ndietary supplements\nto complement, not replace, a healthy diet\nWhat are some tips for planning healthy meals?\nPlanning before you shop for food can make it easier to stick to healthy eating. Here are a few tips:\nShop for fresh, frozen, and minimally processed foods\nUse online recipes or cookbooks to plan healthy meals\nFollow safe\nfood handling\n, cooking, and storage steps to prevent",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/nutrition.html"
+    },
+    {
+      "text": "Use online recipes or cookbooks to plan healthy meals\nFollow safe\nfood handling\n, cooking, and storage steps to prevent\nfoodborne illness\nRead\nfood labels\nCenters for Disease Control and Prevention\nStart Here\n2025-2030 Dietary Guidelines for Americans\n(Department of Agriculture; Department of Health and Human Services)\nBreaking Down Food: A Closer Look at What You Eat\n(National Institutes of Health)\nAlso in\nSpanish\nInteractive Nutrition Facts Label\n(Food and Drug Administration)\nAlso in\nSpanish\nMyPlate Food Guide\n(Nemours Foundation)\nAlso in\nSpanish\nNutrition.gov\n(Department of Agriculture)\nAlso in\nSpanish\nRelated Issues\nDejunking Your Diet: The Drawbacks of Ultra-Processed Foods\n(National Institutes of Health)\nAlso in\nSpanish\nDiet in the News -- What to Believe?",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/nutrition.html"
+    },
+    {
+      "text": "Dejunking Your Diet: The Drawbacks of Ultra-Processed Foods\n(National Institutes of Health)\nAlso in\nSpanish\nDiet in the News -- What to Believe?\n(Harvard School of Public Health)\nFeeding Your Family on a Tight Budget (Free and Confidential Services)\n(Nemours Foundation)\nAlso in\nSpanish\nFood Ingredients and Packaging\n(Food and Drug Administration)\nHealthy Eating Linked to Better Brain Health\n(National Institutes of Health)\nAlso in\nSpanish\nHow Do I Change Recipes?\n(American Heart Association)\n-\nPDF\nIs Food Safe if It Has Chemicals?\n(Food and Drug Administration)\nAlso in\nSpanish\nNutrition Assistance Programs\n(Social Security Administration)\nAlso in\nSpanish\nStrategies for Eating Well on a Budget\n(Harvard School of Public Health)\nUse of the \"Healthy\" Claim on Food Labeling",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/nutrition.html"
+    },
+    {
+      "text": "Also in\nSpanish\nStrategies for Eating Well on a Budget\n(Harvard School of Public Health)\nUse of the \"Healthy\" Claim on Food Labeling\n(Food and Drug Administration)\nYour Guide to Healthy Eating Habits That Stick\n(American Heart Association)\nSpecifics\n30 Tips to Help Your Family Eat Better\n(American Heart Association)\n7 Whole-Grain Foods You Should Try\n(American Heart Association)\nAdded Sugars on the Nutrition Facts Label\n(Food and Drug Administration)\nAlso in\nSpanish\nBarley, Farro, Sorghum and More: 9 Whole Grains to Try\n(Johns Hopkins Medicine)\nFood Groups\n(Academy of Nutrition and Dietetics)\nFoods for Eye Health\n(Academy of Nutrition and Dietetics)\nHealthy Eating Tips\n(Centers for Disease Control and Prevention)\n-\nIn English and Spanish\nAlso in\nSpanish\nHealthy Holiday Eating Tips",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/nutrition.html"
+    },
+    {
+      "text": "Healthy Eating Tips\n(Centers for Disease Control and Prevention)\n-\nIn English and Spanish\nAlso in\nSpanish\nHealthy Holiday Eating Tips\n(American Academy of Family Physicians)\nHealthy Recipes\n(National Library of Medicine)\nAlso in\nSpanish\nIs Raw Milk Healthy?\n(Academy of Nutrition and Dietetics)\nMilk and Plant-Based Milk Alternatives: Know the Nutrient Difference\n(Food and Drug Administration)\nAlso in\nSpanish\nNutrition Facts for Cooked Seafood\n(Food and Drug Administration)\n-\nPDF\nNutrition Facts for Raw Fruits\n(Food and Drug Administration)\n-\nPDF\nNutrition Facts for Raw Vegetables\n(Food and Drug Administration)\n-\nPDF\nTips for Increasing Vegetables and Fruits in Your Diet: Healthy Eating for Healthy Weight\n(Centers for Disease Control and Prevention)\nUnderstanding Seed Oils",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/nutrition.html"
+    },
+    {
+      "text": "(Centers for Disease Control and Prevention)\nUnderstanding Seed Oils\n(Academy of Nutrition and Dietetics)\nVegetables and Fruits\n(Harvard School of Public Health)\nWhole Grains\n(Harvard School of Public Health)\nWhy Micronutrients Matter\n(Centers for Disease Control and Prevention)\nHealth Check Tools\nCalorie Counter: Calculate Your Daily Calorie Needs\n(American Cancer Society)\nTest Your Knowledge\nAre You Eating Enough Fruits and Vegetables?\n(Medical Encyclopedia)\nAlso in\nSpanish\nTest Your Knowledge About Healthy Eating\n(Medical Encyclopedia)\nAlso in\nSpanish\nStatistics and Research\nFastStats: Diet/Nutrition\n(National Center for Health Statistics)\nHow Much Fast Food Do We Eat in America?\n(National Center for Health Statistics)\nClinical Trials\nClinicalTrials.gov: Nutrition",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/nutrition.html"
+    },
+    {
+      "text": "How Much Fast Food Do We Eat in America?\n(National Center for Health Statistics)\nClinical Trials\nClinicalTrials.gov: Nutrition\n(National Institutes of Health)\nClinicalTrials.gov: Nutrition Disorders\n(National Institutes of Health)\nClinicalTrials.gov: Nutritional Physiological Phenomena\n(National Institutes of Health)\nJournal Articles\nReferences and abstracts from MEDLINE/PubMed (National Library of Medicine)\nArticle: Prevalence and Overlap of Malnutrition, Sarcopenia and Related Nutritional Syndromes in...\nArticle: The Impact of Nutrition on DNA Methylation: Methodological Challenges in Understanding...\nArticle: Trends in mortality from nutritional and metabolic diseases in the United...\nNutrition -- see more articles\nReference Desk\nDefinitions of Health Terms: Nutrition",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/nutrition.html"
+    },
+    {
+      "text": "Nutrition -- see more articles\nReference Desk\nDefinitions of Health Terms: Nutrition\n(National Library of Medicine)\nFind an Expert\nAcademy of Nutrition and Dietetics\nCenter for Nutrition Policy and Promotion\nFind a Nutrition Expert\n(Academy of Nutrition and Dietetics)\nFood and Drug Administration\nNational Institute of Diabetes and Digestive and Kidney Diseases\nMen\nEatright.org: For Men\n(Academy of Nutrition and Dietetics)\nWomen\nHealthy Eating\n(Department of Health and Human Services, Office on Women's Health)\nPatient Handouts\nCalorie count - fast food\n(Medical Encyclopedia)\nAlso in\nSpanish\nEating extra calories when sick - adults\n(Medical Encyclopedia)\nAlso in\nSpanish\nEating out\n(Medical Encyclopedia)\nAlso in\nSpanish\nFast food tips\n(Medical Encyclopedia)\nAlso in\nSpanish",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/nutrition.html"
+    },
+    {
+      "text": "(Medical Encyclopedia)\nAlso in\nSpanish\nEating out\n(Medical Encyclopedia)\nAlso in\nSpanish\nFast food tips\n(Medical Encyclopedia)\nAlso in\nSpanish\nHealthy grocery shopping\n(Medical Encyclopedia)\nAlso in\nSpanish\nHow to read food labels\n(Medical Encyclopedia)\nAlso in\nSpanish\nManaging your weight with healthy eating\n(Medical Encyclopedia)\nAlso in\nSpanish\nNutrition Facts for Cooked Seafood\n(Food and Drug Administration)\n-\nPDF\nNutrition Facts for Raw Fruits\n(Food and Drug Administration)\n-\nPDF\nNutrition Facts for Raw Vegetables\n(Food and Drug Administration)\n-\nPDF\nSnacks for adults\n(Medical Encyclopedia)\nAlso in\nSpanish\nUltra-processed foods\n(Medical Encyclopedia)\nAlso in\nSpanish\nTopic Image\nMEDICAL ENCYCLOPEDIA\n12 healthy snacks with 200 calories or less\nCalorie count - fast food",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/nutrition.html"
+    },
+    {
+      "text": "(Medical Encyclopedia)\nAlso in\nSpanish\nTopic Image\nMEDICAL ENCYCLOPEDIA\n12 healthy snacks with 200 calories or less\nCalorie count - fast food\nEat Real Food Pyramid\nEating extra calories when sick - adults\nEating out\nFast food tips\nFood additives\nHealthy food trends - beans and legumes\nHealthy food trends - brussels sprouts\nHealthy food trends - chia seeds\nHealthy food trends - flaxseeds\nHealthy food trends - kale\nHealthy food trends - microgreens\nHealthy food trends - quinoa\nHealthy grocery shopping\nHow to read food labels\nManaging your weight with healthy eating\nSimple, heart-smart substitutions\nSnacks for adults\nSoy\nUltra-processed foods\nShow More\nShow Less\nRelated Health Topics\nBreastfeeding\nCalcium\nCarbohydrates\nChild Nutrition\nCholesterol\nDietary Fats\nDietary Fiber\nDietary Proteins",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/nutrition.html"
+    },
+    {
+      "text": "Show More\nShow Less\nRelated Health Topics\nBreastfeeding\nCalcium\nCarbohydrates\nChild Nutrition\nCholesterol\nDietary Fats\nDietary Fiber\nDietary Proteins\nDiets\nEating Disorders\nFood Labeling\nFood Safety\nInfant and Newborn Nutrition\nMalnutrition\nMinerals\nNutrition for Older Adults\nNutritional Support\nObesity\nPregnancy and Nutrition\nVegetarian Diet\nVitamins\nWeight Control\nNational Institutes of Health\nThe primary NIH organization for research on\nNutrition\nis the\nNational Institute of Diabetes and Digestive and Kidney Diseases\nOther Languages\nFind\nhealth information in languages other than English\non\nNutrition\nDisclaimers",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/nutrition.html"
+    },
+    {
+      "text": "Other Languages\nFind\nhealth information in languages other than English\non\nNutrition\nDisclaimers\nMedlinePlus links to health information from the National Institutes of Health and other federal government agencies. MedlinePlus also links to health information from non-government Web sites. See our\ndisclaimer\nabout external links and our\nquality guidelines\n.\nThe information on this site should not be used as a substitute for professional medical care or advice. Contact a health care provider if you have questions about your health.\nLearn how to cite this page",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/nutrition.html"
+    },
+    {
+      "text": "Skip navigation\nOfficial websites use .gov\nA\n.gov\nwebsite belongs to an official government\n              organization in the United States.\nSecure .gov websites use HTTPS\nA\nlock\n(\nLock\nLocked padlock icon\n) or\nhttps://\nmeans you\u00e2\u0080\u0099ve safely connected to\n              the .gov website. Share sensitive information only on official,\n              secure websites.\nYou Are Here:\nHome\n\u2192\nHealth Topics\n\u2192\nAnxiety\nURL of this page: https://medlineplus.gov/anxiety.html\nAnxiety\nOn this page\nBasics\nSummary\nStart Here\nDiagnosis and Tests\nTreatments and Therapies\nLearn More\nLiving With\nSpecifics\nSee, Play and Learn\nTest Your Knowledge\nResearch\nClinical Trials\nJournal Articles\nResources\nFind an Expert\nFor You\nChildren\nTeenagers\nWomen\nOlder Adults\nPatient Handouts\nSummary\nWhat is anxiety?",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/anxiety.html"
+    },
+    {
+      "text": "Clinical Trials\nJournal Articles\nResources\nFind an Expert\nFor You\nChildren\nTeenagers\nWomen\nOlder Adults\nPatient Handouts\nSummary\nWhat is anxiety?\nAnxiety is a feeling of fear, dread, and uneasiness. It might cause you to sweat, feel restless and tense, and have a rapid heartbeat.   It can be a normal reaction to stress. For example, you might feel anxious when faced with a difficult problem at work, before taking a test, or before making an important decision. It can help you to cope. The anxiety may give you a boost of energy or help you focus. But for people with anxiety disorders, the fear is not temporary and can be overwhelming.\nWhat are anxiety disorders?",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/anxiety.html"
+    },
+    {
+      "text": "What are anxiety disorders?\nAnxiety disorders are conditions in which you have anxiety that does not go away and can get worse over time. The symptoms can interfere with daily activities such as job performance, schoolwork, and relationships.\nWhat are the types of anxiety disorders?\nThere are several types of anxiety disorders, including:\nGeneralized anxiety disorder (GAD).\nPeople with GAD worry about ordinary issues such as health, money, work, and family. But their worries are excessive, and they have them almost every day for at least 6 months.\nPanic disorder\n.\nPeople with panic disorder have panic attacks. These are sudden, repeated periods of intense fear when there is no danger. The attacks come on quickly and can last several minutes or more.\nPhobias\n.",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/anxiety.html"
+    },
+    {
+      "text": "Phobias\n.\nPeople with phobias have an intense fear of something that poses little or no actual danger. Their fear may be about spiders, flying, going to crowded places, or being in social situations (known as social anxiety).\nWhat causes anxiety disorders?\nThe cause of anxiety is unknown. Factors such as genetics, brain biology and chemistry,\nstress\n, and your environment may play a role.\nWho is at risk for anxiety disorders?\nThe risk factors for the different types of anxiety disorders can vary. For example, GAD and phobias are more common in women, but social anxiety affects men and women equally. There are some general risk factors for all types of anxiety disorders, including:",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/anxiety.html"
+    },
+    {
+      "text": "Certain personality traits, such as being shy or withdrawn when you are in new situations or meeting new people\nTraumatic events in early childhood or adulthood\nFamily history of anxiety or other\nmental disorders\nSome physical health conditions, such as\nthyroid problems\nor\narrhythmia\nWhat are the symptoms of anxiety disorders?\nThe different types of anxiety disorders can have different symptoms. But they all have a combination of:\nAnxious thoughts or beliefs that are hard to control. They make you feel restless and tense and interfere with your daily life. They do not go away and can get worse over time.\nPhysical symptoms, such as a pounding or rapid heartbeat, unexplained aches and pains,\ndizziness\n, and\nshortness of breath",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/anxiety.html"
+    },
+    {
+      "text": "Physical symptoms, such as a pounding or rapid heartbeat, unexplained aches and pains,\ndizziness\n, and\nshortness of breath\nChanges in behavior, such as avoiding everyday activities you used to do\nUsing\ncaffeine\n, other substances, and certain medicines can make your symptoms worse.\nHow are anxiety disorders diagnosed?\nTo diagnose anxiety disorders, your health care provider will ask about your symptoms and medical history. You may also have a physical exam and lab tests to make sure that a different health problem is not the cause of your symptoms.\nIf you don't have another health problem, you will get a\npsychological evaluation\n. Your provider may do it, or you may be referred to a mental health professional to get one.\nWhat are the treatments for anxiety disorders?",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/anxiety.html"
+    },
+    {
+      "text": ". Your provider may do it, or you may be referred to a mental health professional to get one.\nWhat are the treatments for anxiety disorders?\nThe main treatments for anxiety disorders are psychotherapy (talk therapy), medicines, or both:\nPsychotherapy\ncan help you recognize and change troubling emotions, thoughts, and behaviors. To be effective, it should focus on your specific anxieties and needs. There are many types; some of the types used for anxiety disorders include:\nCognitive behavioral therapy (CBT),",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/anxiety.html"
+    },
+    {
+      "text": "Cognitive behavioral therapy (CBT),\nwhich teaches you different ways of thinking and behaving. It can help you change how you react to the things that cause you to feel fear and anxiety. It may include exposure therapy. This therapy focuses on having you confront your fears so that you will be able to do the things that you had been avoiding.\nAcceptance and commitment therapy\nmay help with some anxiety disorders. It uses strategies such as mindfulness and goal setting to reduce discomfort and anxiety.\nMedicines\nto treat anxiety disorders include anti-anxiety medicines and certain\nantidepressants",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/anxiety.html"
+    },
+    {
+      "text": "Medicines\nto treat anxiety disorders include anti-anxiety medicines and certain\nantidepressants\n. Some types of medicines may work better for specific types of anxiety disorders. You should work closely with your provider to identify which medicine is best for you. You may need to try more than one medicine before you can find the right one.\nSupport groups and stress management techniques may also be helpful.\nNIH: National Institute of Mental Health\nStart Here\nAnxiety Disorders\n(Department of Health and Human Services, Office on Women's Health)\nAnxiety Disorders\n(National Institute of Mental Health)\nUnderstanding Anxiety Disorders: When Panic, Fear, and Worries Overwhelm\n(National Institutes of Health)\nAlso in\nSpanish\nWhat Are Anxiety Disorders?\n(American Psychiatric Association)",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/anxiety.html"
+    },
+    {
+      "text": "(National Institutes of Health)\nAlso in\nSpanish\nWhat Are Anxiety Disorders?\n(American Psychiatric Association)\nDiagnosis and Tests\nMental Health Screening\n(National Library of Medicine)\nAlso in\nSpanish\nTreatments and Therapies\nAnxiety and Complementary Health Approaches\n(National Center for Complementary and Integrative Health)\nBeyond Worry: How Psychologists Help with Anxiety Disorders\n(American Psychological Association)\nAlso in\nSpanish\nHerbal Treatment for Anxiety: Is It Effective?\n(Mayo Foundation for Medical Education and Research)\nAlso in\nSpanish\nMental Health Medications\n(National Institute of Mental Health)\nPsychotherapies\n(National Institute of Mental Health)\nLiving With\nCoping with Anxiety: Can Diet Make a Difference?\n(Mayo Foundation for Medical Education and Research)\nAlso in",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/anxiety.html"
+    },
+    {
+      "text": "Living With\nCoping with Anxiety: Can Diet Make a Difference?\n(Mayo Foundation for Medical Education and Research)\nAlso in\nSpanish\nDepression and Anxiety: Exercise Eases Symptoms\n(Mayo Foundation for Medical Education and Research)\nAlso in\nSpanish\nHow to Cope with Medical Test Anxiety\n(National Library of Medicine)\nAlso in\nSpanish\nMetabolic Side Effects of Psychiatric Medications\n(American Association of Psychiatric Pharmacists)\n-\nPDF\nWhat to Know Before Stopping Medications (Medication Discontinuation)\n(American Association of Psychiatric Pharmacists)\n-\nPDF\nSpecifics\nGeneralized Anxiety Disorder\n(American Academy of Family Physicians)\nGeneralized Anxiety Disorder: When Worry Gets Out of Control\n(National Institute of Mental Health)\nAlso in\nSpanish\nTest Your Knowledge",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/anxiety.html"
+    },
+    {
+      "text": "Generalized Anxiety Disorder: When Worry Gets Out of Control\n(National Institute of Mental Health)\nAlso in\nSpanish\nTest Your Knowledge\nHow Well Are You Managing Stress?\n(Medical Encyclopedia)\nAlso in\nSpanish\nTest Your Anxiety Knowledge\n(Medical Encyclopedia)\nAlso in\nSpanish\nClinical Trials\nClinicalTrials.gov: Anxiety\n(National Institutes of Health)\nClinicalTrials.gov: Generalized Anxiety Disorder\n(National Institutes of Health)\nJournal Articles\nReferences and abstracts from MEDLINE/PubMed (National Library of Medicine)\nArticle: Estimating the Economic Value of Supported Online Parent-Led Cognitive Behavioral Therapy...\nArticle: Effects of Virtual Reality on Pain, Anxiety, and Fear During Thyroid...\nArticle: A Randomized Controlled Trial of a Digital Stepped-Care Program to Reduce...",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/anxiety.html"
+    },
+    {
+      "text": "Article: A Randomized Controlled Trial of a Digital Stepped-Care Program to Reduce...\nAnxiety -- see more articles\nFind an Expert\nAmerican Academy of Child and Adolescent Psychiatry\nAnxiety and Depression Association of America\nFind Your Therapist\n(Anxiety and Depression Association of America)\nFindTreatment.gov\n(Substance Abuse and Mental Health Services Administration)\nAlso in\nSpanish\nHelp for Mental Illnesses\n(National Institute of Mental Health)\nAlso in\nSpanish\nNAMI\nNational Institute of Mental Health\nAlso in\nSpanish\nChildren\nAnxiety Disorders\n(Nemours Foundation)\nAlso in\nSpanish\nChildhood Fears and Worries\n(Nemours Foundation)\nAlso in\nSpanish\nHelping Kids when They Worry\n(Nemours Foundation)\nAlso in\nSpanish\nHelping Your Child Manage Anxiety\n(Nemours Foundation)\nAlso in\nSpanish",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/anxiety.html"
+    },
+    {
+      "text": "Spanish\nHelping Kids when They Worry\n(Nemours Foundation)\nAlso in\nSpanish\nHelping Your Child Manage Anxiety\n(Nemours Foundation)\nAlso in\nSpanish\nHow Can I Worry Less?\n(Nemours Foundation)\nAlso in\nSpanish\nSeparation Anxiety\n(Nemours Foundation)\nAlso in\nSpanish\nTeenagers\n5 Ways to Cope with Anxiety\n(Nemours Foundation)\nAlso in\nSpanish\nAnxiety\n(Nemours Foundation)\nAlso in\nSpanish\nTest Anxiety\n(Nemours Foundation)\nAlso in\nSpanish\nWomen\nPerinatal Anxiety\n(Postpartum Support International)\nAlso in\nSpanish\nWomen and Anxiety\n(Food and Drug Administration)\nAlso in\nSpanish\nOlder Adults\nAnxiety\n(AGS Health in Aging Foundation)\nPatient Handouts\nGeneralized anxiety disorder\n(Medical Encyclopedia)\nAlso in\nSpanish\nGeneralized anxiety disorder - self-care\n(Medical Encyclopedia)\nAlso in\nSpanish",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/anxiety.html"
+    },
+    {
+      "text": "Generalized anxiety disorder\n(Medical Encyclopedia)\nAlso in\nSpanish\nGeneralized anxiety disorder - self-care\n(Medical Encyclopedia)\nAlso in\nSpanish\nGeneralized anxiety disorder in children\n(Medical Encyclopedia)\nAlso in\nSpanish\nPalliative care - fear and anxiety\n(Medical Encyclopedia)\nAlso in\nSpanish\nSeparation anxiety in children\n(Medical Encyclopedia)\nAlso in\nSpanish\nStress and your health\n(Medical Encyclopedia)\nAlso in\nSpanish\nTopic Image\nMEDICAL ENCYCLOPEDIA\nAgitation\nGeneralized anxiety disorder\nGeneralized anxiety disorder - self-care\nGeneralized anxiety disorder in children\nHyperventilation\nPalliative care - fear and anxiety\nSeparation anxiety in children\nStress and your health\nRelated Health Topics\nPanic Disorder\nPhobias\nStress\nNational Institutes of Health",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/anxiety.html"
+    },
+    {
+      "text": "Separation anxiety in children\nStress and your health\nRelated Health Topics\nPanic Disorder\nPhobias\nStress\nNational Institutes of Health\nThe primary NIH organization for research on\nAnxiety\nis the\nNational Institute of Mental Health\nOther Languages\nFind\nhealth information in languages other than English\non\nAnxiety\nNIH MedlinePlus Magazine\n4 Types of Common Anxiety Disorders\nTeens and Stress: When It's More Than Worry\nDisclaimers\nMedlinePlus links to health information from the National Institutes of Health and other federal government agencies. MedlinePlus also links to health information from non-government Web sites. See our\ndisclaimer\nabout external links and our\nquality guidelines\n.",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/anxiety.html"
+    },
+    {
+      "text": "disclaimer\nabout external links and our\nquality guidelines\n.\nThe information on this site should not be used as a substitute for professional medical care or advice. Contact a health care provider if you have questions about your health.\nLearn how to cite this page",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/anxiety.html"
+    }
+  ]
+}
