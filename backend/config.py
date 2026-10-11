@@ -19,7 +19,7 @@ TOP_K = 5
 # If nothing clears it, the API declines instead of letting the model guess.
 # Tune it with the evaluation set: raise it if off-topic questions get answers,
 # lower it if real questions get refused.
-MIN_SIMILARITY = float(os.getenv("MIN_SIMILARITY", "0.30"))
+MIN_SIMILARITY = float(os.getenv("MIN_SIMILARITY", "0.37"))
 
 MAX_MESSAGE_CHARS = 1000
 

@@ -1,0 +1,981 @@
+{
+  "threshold": 0.37,
+  "summary": {
+    "threshold": 0.37,
+    "answered": 1.0,
+    "hit_at_1": 1.0,
+    "recall_at_5": 1.0,
+    "mrr": 1.0,
+    "refused": 1.0,
+    "refused_medical": 1.0,
+    "refused_non_medical": 1.0,
+    "balanced": 1.0
+  },
+  "sweep": [
+    {
+      "threshold": 0.15,
+      "answered": 1.0,
+      "hit_at_1": 1.0,
+      "recall_at_5": 1.0,
+      "mrr": 1.0,
+      "refused": 0.4166666666666667,
+      "refused_medical": 0.0,
+      "refused_non_medical": 0.8333333333333334,
+      "balanced": 0.7083333333333334
+    },
+    {
+      "threshold": 0.175,
+      "answered": 1.0,
+      "hit_at_1": 1.0,
+      "recall_at_5": 1.0,
+      "mrr": 1.0,
+      "refused": 0.5,
+      "refused_medical": 0.0,
+      "refused_non_medical": 1.0,
+      "balanced": 0.75
+    },
+    {
+      "threshold": 0.2,
+      "answered": 1.0,
+      "hit_at_1": 1.0,
+      "recall_at_5": 1.0,
+      "mrr": 1.0,
+      "refused": 0.5,
+      "refused_medical": 0.0,
+      "refused_non_medical": 1.0,
+      "balanced": 0.75
+    },
+    {
+      "threshold": 0.225,
+      "answered": 1.0,
+      "hit_at_1": 1.0,
+      "recall_at_5": 1.0,
+      "mrr": 1.0,
+      "refused": 0.75,
+      "refused_medical": 0.5,
+      "refused_non_medical": 1.0,
+      "balanced": 0.875
+    },
+    {
+      "threshold": 0.25,
+      "answered": 1.0,
+      "hit_at_1": 1.0,
+      "recall_at_5": 1.0,
+      "mrr": 1.0,
+      "refused": 0.75,
+      "refused_medical": 0.5,
+      "refused_non_medical": 1.0,
+      "balanced": 0.875
+    },
+    {
+      "threshold": 0.275,
+      "answered": 1.0,
+      "hit_at_1": 1.0,
+      "recall_at_5": 1.0,
+      "mrr": 1.0,
+      "refused": 0.8333333333333334,
+      "refused_medical": 0.6666666666666666,
+      "refused_non_medical": 1.0,
+      "balanced": 0.9166666666666667
+    },
+    {
+      "threshold": 0.3,
+      "answered": 1.0,
+      "hit_at_1": 1.0,
+      "recall_at_5": 1.0,
+      "mrr": 1.0,
+      "refused": 0.8333333333333334,
+      "refused_medical": 0.6666666666666666,
+      "refused_non_medical": 1.0,
+      "balanced": 0.9166666666666667
+    },
+    {
+      "threshold": 0.325,
+      "answered": 1.0,
+      "hit_at_1": 1.0,
+      "recall_at_5": 1.0,
+      "mrr": 1.0,
+      "refused": 0.9166666666666666,
+      "refused_medical": 0.8333333333333334,
+      "refused_non_medical": 1.0,
+      "balanced": 0.9583333333333333
+    },
+    {
+      "threshold": 0.35,
+      "answered": 1.0,
+      "hit_at_1": 1.0,
+      "recall_at_5": 1.0,
+      "mrr": 1.0,
+      "refused": 1.0,
+      "refused_medical": 1.0,
+      "refused_non_medical": 1.0,
+      "balanced": 1.0
+    },
+    {
+      "threshold": 0.375,
+      "answered": 1.0,
+      "hit_at_1": 1.0,
+      "recall_at_5": 1.0,
+      "mrr": 1.0,
+      "refused": 1.0,
+      "refused_medical": 1.0,
+      "refused_non_medical": 1.0,
+      "balanced": 1.0
+    },
+    {
+      "threshold": 0.4,
+      "answered": 0.9666666666666667,
+      "hit_at_1": 0.9666666666666667,
+      "recall_at_5": 0.9666666666666667,
+      "mrr": 0.9666666666666667,
+      "refused": 1.0,
+      "refused_medical": 1.0,
+      "refused_non_medical": 1.0,
+      "balanced": 0.9833333333333334
+    },
+    {
+      "threshold": 0.425,
+      "answered": 0.9666666666666667,
+      "hit_at_1": 0.9666666666666667,
+      "recall_at_5": 0.9666666666666667,
+      "mrr": 0.9666666666666667,
+      "refused": 1.0,
+      "refused_medical": 1.0,
+      "refused_non_medical": 1.0,
+      "balanced": 0.9833333333333334
+    },
+    {
+      "threshold": 0.45,
+      "answered": 0.9666666666666667,
+      "hit_at_1": 0.9666666666666667,
+      "recall_at_5": 0.9666666666666667,
+      "mrr": 0.9666666666666667,
+      "refused": 1.0,
+      "refused_medical": 1.0,
+      "refused_non_medical": 1.0,
+      "balanced": 0.9833333333333334
+    },
+    {
+      "threshold": 0.475,
+      "answered": 0.9666666666666667,
+      "hit_at_1": 0.9666666666666667,
+      "recall_at_5": 0.9666666666666667,
+      "mrr": 0.9666666666666667,
+      "refused": 1.0,
+      "refused_medical": 1.0,
+      "refused_non_medical": 1.0,
+      "balanced": 0.9833333333333334
+    },
+    {
+      "threshold": 0.5,
+      "answered": 0.8666666666666667,
+      "hit_at_1": 0.8666666666666667,
+      "recall_at_5": 0.8666666666666667,
+      "mrr": 0.8666666666666667,
+      "refused": 1.0,
+      "refused_medical": 1.0,
+      "refused_non_medical": 1.0,
+      "balanced": 0.9333333333333333
+    }
+  ],
+  "questions": [
+    {
+      "id": "dia-1",
+      "question": "What are the common symptoms of diabetes?",
+      "top_score": 0.5975,
+      "top_urls": [
+        "https://medlineplus.gov/diabetes.html",
+        "https://medlineplus.gov/diabetes.html",
+        "https://medlineplus.gov/diabetes.html",
+        "https://medlineplus.gov/diabetes.html",
+        "https://medlineplus.gov/diabetes.html"
+      ],
+      "scores": [
+        0.5975,
+        0.5871,
+        0.5129,
+        0.472,
+        0.4692
+      ]
+    },
+    {
+      "id": "dia-2",
+      "question": "What is the difference between type 1 and type 2 diabetes?",
+      "top_score": 0.5251,
+      "top_urls": [
+        "https://medlineplus.gov/diabetes.html",
+        "https://medlineplus.gov/diabetes.html",
+        "https://medlineplus.gov/diabetes.html",
+        "https://medlineplus.gov/diabetes.html",
+        "https://medlineplus.gov/diabetes.html"
+      ],
+      "scores": [
+        0.5251,
+        0.5234,
+        0.4912,
+        0.4768,
+        0.4761
+      ]
+    },
+    {
+      "id": "dia-3",
+      "question": "What is gestational diabetes and when are pregnant people screened for it?",
+      "top_score": 0.5394,
+      "top_urls": [
+        "https://medlineplus.gov/diabetes.html",
+        "https://medlineplus.gov/diabetes.html",
+        "https://medlineplus.gov/diabetes.html",
+        "https://medlineplus.gov/diabetes.html",
+        "https://medlineplus.gov/diabetes.html"
+      ],
+      "scores": [
+        0.5394,
+        0.5122,
+        0.503,
+        0.4997,
+        0.4558
+      ]
+    },
+    {
+      "id": "dia-4",
+      "question": "What does insulin do in the body?",
+      "top_score": 0.4854,
+      "top_urls": [
+        "https://medlineplus.gov/diabetes.html",
+        "https://medlineplus.gov/diabetes.html",
+        "https://medlineplus.gov/diabetes.html",
+        "https://medlineplus.gov/diabetes.html",
+        "https://medlineplus.gov/diabetes.html"
+      ],
+      "scores": [
+        0.4854,
+        0.3957,
+        0.3863,
+        0.3738,
+        0.3642
+      ]
+    },
+    {
+      "id": "dia-5",
+      "question": "Can type 2 diabetes be prevented?",
+      "top_score": 0.7238,
+      "top_urls": [
+        "https://medlineplus.gov/diabetes.html",
+        "https://medlineplus.gov/diabetes.html",
+        "https://medlineplus.gov/diabetes.html",
+        "https://medlineplus.gov/diabetes.html",
+        "https://medlineplus.gov/diabetes.html"
+      ],
+      "scores": [
+        0.7238,
+        0.621,
+        0.5651,
+        0.5612,
+        0.5033
+      ]
+    },
+    {
+      "id": "dia-6",
+      "question": "What test is used to diagnose diabetes?",
+      "top_score": 0.5732,
+      "top_urls": [
+        "https://medlineplus.gov/diabetes.html",
+        "https://medlineplus.gov/diabetes.html",
+        "https://medlineplus.gov/diabetes.html",
+        "https://medlineplus.gov/diabetes.html",
+        "https://medlineplus.gov/diabetes.html"
+      ],
+      "scores": [
+        0.5732,
+        0.5636,
+        0.5043,
+        0.5039,
+        0.4789
+      ]
+    },
+    {
+      "id": "bp-1",
+      "question": "What do the two numbers in a blood pressure reading mean?",
+      "top_score": 0.6533,
+      "top_urls": [
+        "https://medlineplus.gov/highbloodpressure.html",
+        "https://medlineplus.gov/highbloodpressure.html",
+        "https://medlineplus.gov/highbloodpressure.html",
+        "https://medlineplus.gov/highbloodpressure.html",
+        "https://medlineplus.gov/highbloodpressure.html"
+      ],
+      "scores": [
+        0.6533,
+        0.5614,
+        0.5053,
+        0.433,
+        0.4166
+      ]
+    },
+    {
+      "id": "bp-2",
+      "question": "Does high blood pressure cause symptoms?",
+      "top_score": 0.5432,
+      "top_urls": [
+        "https://medlineplus.gov/highbloodpressure.html",
+        "https://medlineplus.gov/highbloodpressure.html",
+        "https://medlineplus.gov/heartdiseases.html",
+        "https://medlineplus.gov/highbloodpressure.html",
+        "https://medlineplus.gov/highbloodpressure.html"
+      ],
+      "scores": [
+        0.5432,
+        0.5118,
+        0.5021,
+        0.4859,
+        0.4737
+      ]
+    },
+    {
+      "id": "bp-3",
+      "question": "What blood pressure reading counts as a hypertensive crisis?",
+      "top_score": 0.6055,
+      "top_urls": [
+        "https://medlineplus.gov/highbloodpressure.html",
+        "https://medlineplus.gov/highbloodpressure.html",
+        "https://medlineplus.gov/highbloodpressure.html",
+        "https://medlineplus.gov/highbloodpressure.html",
+        "https://medlineplus.gov/highbloodpressure.html"
+      ],
+      "scores": [
+        0.6055,
+        0.545,
+        0.4119,
+        0.4095,
+        0.4071
+      ]
+    },
+    {
+      "id": "bp-4",
+      "question": "What is the difference between primary and secondary hypertension?",
+      "top_score": 0.545,
+      "top_urls": [
+        "https://medlineplus.gov/highbloodpressure.html",
+        "https://medlineplus.gov/highbloodpressure.html",
+        "https://medlineplus.gov/highbloodpressure.html",
+        "https://medlineplus.gov/highbloodpressure.html",
+        "https://medlineplus.gov/highbloodpressure.html"
+      ],
+      "scores": [
+        0.545,
+        0.4877,
+        0.4452,
+        0.4389,
+        0.3859
+      ]
+    },
+    {
+      "id": "bp-5",
+      "question": "Why is untreated high blood pressure dangerous?",
+      "top_score": 0.6134,
+      "top_urls": [
+        "https://medlineplus.gov/highbloodpressure.html",
+        "https://medlineplus.gov/highbloodpressure.html",
+        "https://medlineplus.gov/highbloodpressure.html",
+        "https://medlineplus.gov/highbloodpressure.html",
+        "https://medlineplus.gov/highbloodpressure.html"
+      ],
+      "scores": [
+        0.6134,
+        0.5484,
+        0.4962,
+        0.4832,
+        0.4613
+      ]
+    },
+    {
+      "id": "bp-6",
+      "question": "How is high blood pressure treated?",
+      "top_score": 0.6838,
+      "top_urls": [
+        "https://medlineplus.gov/highbloodpressure.html",
+        "https://medlineplus.gov/highbloodpressure.html",
+        "https://medlineplus.gov/highbloodpressure.html",
+        "https://medlineplus.gov/highbloodpressure.html",
+        "https://medlineplus.gov/highbloodpressure.html"
+      ],
+      "scores": [
+        0.6838,
+        0.6127,
+        0.513,
+        0.5074,
+        0.5002
+      ]
+    },
+    {
+      "id": "hd-1",
+      "question": "What is the most common type of heart disease?",
+      "top_score": 0.6498,
+      "top_urls": [
+        "https://medlineplus.gov/heartdiseases.html",
+        "https://medlineplus.gov/heartdiseases.html",
+        "https://medlineplus.gov/heartdiseases.html",
+        "https://medlineplus.gov/heartdiseases.html",
+        "https://medlineplus.gov/heartdiseases.html"
+      ],
+      "scores": [
+        0.6498,
+        0.5803,
+        0.5306,
+        0.5133,
+        0.4818
+      ]
+    },
+    {
+      "id": "hd-2",
+      "question": "What is coronary artery disease and what can it lead to?",
+      "top_score": 0.5338,
+      "top_urls": [
+        "https://medlineplus.gov/heartdiseases.html",
+        "https://medlineplus.gov/heartdiseases.html",
+        "https://medlineplus.gov/heartdiseases.html",
+        "https://medlineplus.gov/heartdiseases.html",
+        "https://medlineplus.gov/heartdiseases.html"
+      ],
+      "scores": [
+        0.5338,
+        0.5014,
+        0.433,
+        0.4269,
+        0.4244
+      ]
+    },
+    {
+      "id": "hd-3",
+      "question": "What lifestyle habits increase the risk of heart disease?",
+      "top_score": 0.6439,
+      "top_urls": [
+        "https://medlineplus.gov/heartdiseases.html",
+        "https://medlineplus.gov/heartdiseases.html",
+        "https://medlineplus.gov/heartdiseases.html",
+        "https://medlineplus.gov/heartdiseases.html",
+        "https://medlineplus.gov/heartdiseases.html"
+      ],
+      "scores": [
+        0.6439,
+        0.5077,
+        0.4713,
+        0.4597,
+        0.4546
+      ]
+    },
+    {
+      "id": "hd-4",
+      "question": "How do doctors diagnose heart disease?",
+      "top_score": 0.5808,
+      "top_urls": [
+        "https://medlineplus.gov/heartdiseases.html",
+        "https://medlineplus.gov/heartdiseases.html",
+        "https://medlineplus.gov/heartdiseases.html",
+        "https://medlineplus.gov/heartdiseases.html",
+        "https://medlineplus.gov/heartdiseases.html"
+      ],
+      "scores": [
+        0.5808,
+        0.5725,
+        0.5175,
+        0.4945,
+        0.4823
+      ]
+    },
+    {
+      "id": "hd-5",
+      "question": "What is cardiac rehabilitation used for?",
+      "top_score": 0.4804,
+      "top_urls": [
+        "https://medlineplus.gov/heartdiseases.html",
+        "https://medlineplus.gov/heartdiseases.html",
+        "https://medlineplus.gov/heartdiseases.html",
+        "https://medlineplus.gov/heartdiseases.html",
+        "https://medlineplus.gov/heartdiseases.html"
+      ],
+      "scores": [
+        0.4804,
+        0.4688,
+        0.3894,
+        0.3814,
+        0.3569
+      ]
+    },
+    {
+      "id": "hd-6",
+      "question": "Is heart disease a leading cause of death in the United States?",
+      "top_score": 0.6169,
+      "top_urls": [
+        "https://medlineplus.gov/heartdiseases.html",
+        "https://medlineplus.gov/heartdiseases.html",
+        "https://medlineplus.gov/heartdiseases.html",
+        "https://medlineplus.gov/heartdiseases.html",
+        "https://medlineplus.gov/heartdiseases.html"
+      ],
+      "scores": [
+        0.6169,
+        0.5473,
+        0.4568,
+        0.431,
+        0.4259
+      ]
+    },
+    {
+      "id": "nu-1",
+      "question": "What nutrients does the body need from food?",
+      "top_score": 0.5603,
+      "top_urls": [
+        "https://medlineplus.gov/nutrition.html",
+        "https://medlineplus.gov/nutrition.html",
+        "https://medlineplus.gov/nutrition.html",
+        "https://medlineplus.gov/nutrition.html",
+        "https://medlineplus.gov/nutrition.html"
+      ],
+      "scores": [
+        0.5603,
+        0.5068,
+        0.4575,
+        0.3982,
+        0.3925
+      ]
+    },
+    {
+      "id": "nu-2",
+      "question": "What does a healthy eating pattern include?",
+      "top_score": 0.6126,
+      "top_urls": [
+        "https://medlineplus.gov/nutrition.html",
+        "https://medlineplus.gov/nutrition.html",
+        "https://medlineplus.gov/nutrition.html",
+        "https://medlineplus.gov/nutrition.html",
+        "https://medlineplus.gov/nutrition.html"
+      ],
+      "scores": [
+        0.6126,
+        0.4826,
+        0.4808,
+        0.4751,
+        0.4295
+      ]
+    },
+    {
+      "id": "nu-3",
+      "question": "Should I take supplements instead of eating a healthy diet?",
+      "top_score": 0.5109,
+      "top_urls": [
+        "https://medlineplus.gov/nutrition.html",
+        "https://medlineplus.gov/nutrition.html",
+        "https://medlineplus.gov/nutrition.html",
+        "https://medlineplus.gov/nutrition.html",
+        "https://medlineplus.gov/nutrition.html"
+      ],
+      "scores": [
+        0.5109,
+        0.4777,
+        0.4692,
+        0.4438,
+        0.3998
+      ]
+    },
+    {
+      "id": "nu-4",
+      "question": "What are some tips for meal planning?",
+      "top_score": 0.5787,
+      "top_urls": [
+        "https://medlineplus.gov/nutrition.html",
+        "https://medlineplus.gov/nutrition.html",
+        "https://medlineplus.gov/nutrition.html",
+        "https://medlineplus.gov/nutrition.html",
+        "https://medlineplus.gov/nutrition.html"
+      ],
+      "scores": [
+        0.5787,
+        0.4526,
+        0.3953,
+        0.3898,
+        0.362
+      ]
+    },
+    {
+      "id": "nu-5",
+      "question": "Do I have to follow a strict diet to eat healthy?",
+      "top_score": 0.6017,
+      "top_urls": [
+        "https://medlineplus.gov/nutrition.html",
+        "https://medlineplus.gov/nutrition.html",
+        "https://medlineplus.gov/nutrition.html",
+        "https://medlineplus.gov/nutrition.html",
+        "https://medlineplus.gov/nutrition.html"
+      ],
+      "scores": [
+        0.6017,
+        0.5666,
+        0.5129,
+        0.4558,
+        0.4236
+      ]
+    },
+    {
+      "id": "nu-6",
+      "question": "Which foods should I limit for better nutrition?",
+      "top_score": 0.5228,
+      "top_urls": [
+        "https://medlineplus.gov/nutrition.html",
+        "https://medlineplus.gov/nutrition.html",
+        "https://medlineplus.gov/nutrition.html",
+        "https://medlineplus.gov/nutrition.html",
+        "https://medlineplus.gov/nutrition.html"
+      ],
+      "scores": [
+        0.5228,
+        0.5063,
+        0.5059,
+        0.4751,
+        0.4736
+      ]
+    },
+    {
+      "id": "anx-1",
+      "question": "What is generalized anxiety disorder?",
+      "top_score": 0.5414,
+      "top_urls": [
+        "https://medlineplus.gov/anxiety.html",
+        "https://medlineplus.gov/anxiety.html",
+        "https://medlineplus.gov/anxiety.html",
+        "https://medlineplus.gov/anxiety.html",
+        "https://medlineplus.gov/anxiety.html"
+      ],
+      "scores": [
+        0.5414,
+        0.5196,
+        0.5013,
+        0.4853,
+        0.4523
+      ]
+    },
+    {
+      "id": "anx-2",
+      "question": "What are the physical symptoms of anxiety?",
+      "top_score": 0.678,
+      "top_urls": [
+        "https://medlineplus.gov/anxiety.html",
+        "https://medlineplus.gov/anxiety.html",
+        "https://medlineplus.gov/anxiety.html",
+        "https://medlineplus.gov/anxiety.html",
+        "https://medlineplus.gov/anxiety.html"
+      ],
+      "scores": [
+        0.678,
+        0.6581,
+        0.5785,
+        0.5261,
+        0.4907
+      ]
+    },
+    {
+      "id": "anx-3",
+      "question": "What happens during a panic attack?",
+      "top_score": 0.3971,
+      "top_urls": [
+        "https://medlineplus.gov/anxiety.html",
+        "https://medlineplus.gov/anxiety.html",
+        "https://medlineplus.gov/anxiety.html",
+        "https://medlineplus.gov/anxiety.html",
+        "https://medlineplus.gov/anxiety.html"
+      ],
+      "scores": [
+        0.3971,
+        0.3908,
+        0.3835,
+        0.3484,
+        0.3394
+      ]
+    },
+    {
+      "id": "anx-4",
+      "question": "How are anxiety disorders treated?",
+      "top_score": 0.6448,
+      "top_urls": [
+        "https://medlineplus.gov/anxiety.html",
+        "https://medlineplus.gov/anxiety.html",
+        "https://medlineplus.gov/anxiety.html",
+        "https://medlineplus.gov/anxiety.html",
+        "https://medlineplus.gov/anxiety.html"
+      ],
+      "scores": [
+        0.6448,
+        0.6411,
+        0.6312,
+        0.6273,
+        0.5531
+      ]
+    },
+    {
+      "id": "anx-5",
+      "question": "Can caffeine make anxiety worse?",
+      "top_score": 0.4892,
+      "top_urls": [
+        "https://medlineplus.gov/anxiety.html",
+        "https://medlineplus.gov/anxiety.html",
+        "https://medlineplus.gov/anxiety.html",
+        "https://medlineplus.gov/anxiety.html",
+        "https://medlineplus.gov/anxiety.html"
+      ],
+      "scores": [
+        0.4892,
+        0.4687,
+        0.4361,
+        0.4127,
+        0.4092
+      ]
+    },
+    {
+      "id": "anx-6",
+      "question": "What causes anxiety disorders?",
+      "top_score": 0.6549,
+      "top_urls": [
+        "https://medlineplus.gov/anxiety.html",
+        "https://medlineplus.gov/anxiety.html",
+        "https://medlineplus.gov/anxiety.html",
+        "https://medlineplus.gov/anxiety.html",
+        "https://medlineplus.gov/anxiety.html"
+      ],
+      "scores": [
+        0.6549,
+        0.581,
+        0.5659,
+        0.5639,
+        0.5585
+      ]
+    },
+    {
+      "id": "med-1",
+      "question": "What triggers an asthma attack?",
+      "top_score": 0.3425,
+      "top_urls": [
+        "https://medlineplus.gov/anxiety.html",
+        "https://medlineplus.gov/anxiety.html",
+        "https://medlineplus.gov/anxiety.html",
+        "https://medlineplus.gov/anxiety.html",
+        "https://medlineplus.gov/diabetes.html"
+      ],
+      "scores": [
+        0.3425,
+        0.3392,
+        0.3321,
+        0.316,
+        0.3113
+      ]
+    },
+    {
+      "id": "med-2",
+      "question": "How long does the flu last?",
+      "top_score": 0.2164,
+      "top_urls": [
+        "https://medlineplus.gov/heartdiseases.html",
+        "https://medlineplus.gov/anxiety.html",
+        "https://medlineplus.gov/diabetes.html",
+        "https://medlineplus.gov/diabetes.html",
+        "https://medlineplus.gov/anxiety.html"
+      ],
+      "scores": [
+        0.2164,
+        0.1825,
+        0.1802,
+        0.1588,
+        0.1583
+      ]
+    },
+    {
+      "id": "med-3",
+      "question": "What are the warning signs of a migraine?",
+      "top_score": 0.322,
+      "top_urls": [
+        "https://medlineplus.gov/anxiety.html",
+        "https://medlineplus.gov/anxiety.html",
+        "https://medlineplus.gov/diabetes.html",
+        "https://medlineplus.gov/diabetes.html",
+        "https://medlineplus.gov/highbloodpressure.html"
+      ],
+      "scores": [
+        0.322,
+        0.293,
+        0.2781,
+        0.2679,
+        0.2566
+      ]
+    },
+    {
+      "id": "med-4",
+      "question": "How is a broken wrist treated?",
+      "top_score": 0.2088,
+      "top_urls": [
+        "https://medlineplus.gov/anxiety.html",
+        "https://medlineplus.gov/heartdiseases.html",
+        "https://medlineplus.gov/anxiety.html",
+        "https://medlineplus.gov/anxiety.html",
+        "https://medlineplus.gov/highbloodpressure.html"
+      ],
+      "scores": [
+        0.2088,
+        0.2077,
+        0.182,
+        0.181,
+        0.1801
+      ]
+    },
+    {
+      "id": "med-5",
+      "question": "What causes kidney stones?",
+      "top_score": 0.2733,
+      "top_urls": [
+        "https://medlineplus.gov/heartdiseases.html",
+        "https://medlineplus.gov/highbloodpressure.html",
+        "https://medlineplus.gov/diabetes.html",
+        "https://medlineplus.gov/highbloodpressure.html",
+        "https://medlineplus.gov/diabetes.html"
+      ],
+      "scores": [
+        0.2733,
+        0.2664,
+        0.256,
+        0.2477,
+        0.2426
+      ]
+    },
+    {
+      "id": "med-6",
+      "question": "Is the chickenpox vaccine safe for children?",
+      "top_score": 0.2206,
+      "top_urls": [
+        "https://medlineplus.gov/diabetes.html",
+        "https://medlineplus.gov/anxiety.html",
+        "https://medlineplus.gov/diabetes.html",
+        "https://medlineplus.gov/anxiety.html",
+        "https://medlineplus.gov/anxiety.html"
+      ],
+      "scores": [
+        0.2206,
+        0.2066,
+        0.1976,
+        0.184,
+        0.1802
+      ]
+    },
+    {
+      "id": "gen-1",
+      "question": "Who won the World Series last year?",
+      "top_score": 0.0957,
+      "top_urls": [
+        "https://medlineplus.gov/anxiety.html",
+        "https://medlineplus.gov/diabetes.html",
+        "https://medlineplus.gov/heartdiseases.html",
+        "https://medlineplus.gov/nutrition.html",
+        "https://medlineplus.gov/heartdiseases.html"
+      ],
+      "scores": [
+        0.0957,
+        0.0953,
+        0.0936,
+        0.0919,
+        0.0904
+      ]
+    },
+    {
+      "id": "gen-2",
+      "question": "How do I reverse a linked list in Python?",
+      "top_score": 0.092,
+      "top_urls": [
+        "https://medlineplus.gov/heartdiseases.html",
+        "https://medlineplus.gov/diabetes.html",
+        "https://medlineplus.gov/nutrition.html",
+        "https://medlineplus.gov/diabetes.html",
+        "https://medlineplus.gov/diabetes.html"
+      ],
+      "scores": [
+        0.092,
+        0.0894,
+        0.0788,
+        0.0785,
+        0.0781
+      ]
+    },
+    {
+      "id": "gen-3",
+      "question": "What is the capital of Australia?",
+      "top_score": 0.1126,
+      "top_urls": [
+        "https://medlineplus.gov/anxiety.html",
+        "https://medlineplus.gov/heartdiseases.html",
+        "https://medlineplus.gov/heartdiseases.html",
+        "https://medlineplus.gov/diabetes.html",
+        "https://medlineplus.gov/nutrition.html"
+      ],
+      "scores": [
+        0.1126,
+        0.0914,
+        0.086,
+        0.0644,
+        0.0641
+      ]
+    },
+    {
+      "id": "gen-4",
+      "question": "Can you recommend a good sci-fi novel?",
+      "top_score": 0.1211,
+      "top_urls": [
+        "https://medlineplus.gov/heartdiseases.html",
+        "https://medlineplus.gov/highbloodpressure.html",
+        "https://medlineplus.gov/anxiety.html",
+        "https://medlineplus.gov/diabetes.html",
+        "https://medlineplus.gov/nutrition.html"
+      ],
+      "scores": [
+        0.1211,
+        0.1091,
+        0.1083,
+        0.1067,
+        0.106
+      ]
+    },
+    {
+      "id": "gen-5",
+      "question": "How do I change a flat tire?",
+      "top_score": 0.1517,
+      "top_urls": [
+        "https://medlineplus.gov/highbloodpressure.html",
+        "https://medlineplus.gov/anxiety.html",
+        "https://medlineplus.gov/highbloodpressure.html",
+        "https://medlineplus.gov/heartdiseases.html",
+        "https://medlineplus.gov/diabetes.html"
+      ],
+      "scores": [
+        0.1517,
+        0.1251,
+        0.1204,
+        0.1122,
+        0.1121
+      ]
+    },
+    {
+      "id": "gen-6",
+      "question": "Write me a poem about the ocean.",
+      "top_score": 0.0772,
+      "top_urls": [
+        "https://medlineplus.gov/heartdiseases.html",
+        "https://medlineplus.gov/heartdiseases.html",
+        "https://medlineplus.gov/heartdiseases.html",
+        "https://medlineplus.gov/heartdiseases.html",
+        "https://medlineplus.gov/heartdiseases.html"
+      ],
+      "scores": [
+        0.0772,
+        0.0766,
+        0.0736,
+        0.0704,
+        0.0696
+      ]
+    }
+  ]
+}

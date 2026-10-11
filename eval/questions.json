@@ -1,0 +1,54 @@
+{
+  "notes": "in_scope questions are answerable from the indexed MedlinePlus pages; expected_urls lists every page that genuinely answers the question. out_of_scope questions should be declined: 'medical' ones are health topics the index doesn't cover (the hard case), 'non_medical' ones are unrelated.",
+  "in_scope": [
+    {"id": "dia-1", "question": "What are the common symptoms of diabetes?", "expected_urls": ["https://medlineplus.gov/diabetes.html"]},
+    {"id": "dia-2", "question": "What is the difference between type 1 and type 2 diabetes?", "expected_urls": ["https://medlineplus.gov/diabetes.html"]},
+    {"id": "dia-3", "question": "What is gestational diabetes and when are pregnant people screened for it?", "expected_urls": ["https://medlineplus.gov/diabetes.html"]},
+    {"id": "dia-4", "question": "What does insulin do in the body?", "expected_urls": ["https://medlineplus.gov/diabetes.html"]},
+    {"id": "dia-5", "question": "Can type 2 diabetes be prevented?", "expected_urls": ["https://medlineplus.gov/diabetes.html"]},
+    {"id": "dia-6", "question": "What test is used to diagnose diabetes?", "expected_urls": ["https://medlineplus.gov/diabetes.html"]},
+
+    {"id": "bp-1", "question": "What do the two numbers in a blood pressure reading mean?", "expected_urls": ["https://medlineplus.gov/highbloodpressure.html"]},
+    {"id": "bp-2", "question": "Does high blood pressure cause symptoms?", "expected_urls": ["https://medlineplus.gov/highbloodpressure.html"]},
+    {"id": "bp-3", "question": "What blood pressure reading counts as a hypertensive crisis?", "expected_urls": ["https://medlineplus.gov/highbloodpressure.html"]},
+    {"id": "bp-4", "question": "What is the difference between primary and secondary hypertension?", "expected_urls": ["https://medlineplus.gov/highbloodpressure.html"]},
+    {"id": "bp-5", "question": "Why is untreated high blood pressure dangerous?", "expected_urls": ["https://medlineplus.gov/highbloodpressure.html"]},
+    {"id": "bp-6", "question": "How is high blood pressure treated?", "expected_urls": ["https://medlineplus.gov/highbloodpressure.html"]},
+
+    {"id": "hd-1", "question": "What is the most common type of heart disease?", "expected_urls": ["https://medlineplus.gov/heartdiseases.html"]},
+    {"id": "hd-2", "question": "What is coronary artery disease and what can it lead to?", "expected_urls": ["https://medlineplus.gov/heartdiseases.html"]},
+    {"id": "hd-3", "question": "What lifestyle habits increase the risk of heart disease?", "expected_urls": ["https://medlineplus.gov/heartdiseases.html"]},
+    {"id": "hd-4", "question": "How do doctors diagnose heart disease?", "expected_urls": ["https://medlineplus.gov/heartdiseases.html"]},
+    {"id": "hd-5", "question": "What is cardiac rehabilitation used for?", "expected_urls": ["https://medlineplus.gov/heartdiseases.html"]},
+    {"id": "hd-6", "question": "Is heart disease a leading cause of death in the United States?", "expected_urls": ["https://medlineplus.gov/heartdiseases.html"]},
+
+    {"id": "nu-1", "question": "What nutrients does the body need from food?", "expected_urls": ["https://medlineplus.gov/nutrition.html"]},
+    {"id": "nu-2", "question": "What does a healthy eating pattern include?", "expected_urls": ["https://medlineplus.gov/nutrition.html"]},
+    {"id": "nu-3", "question": "Should I take supplements instead of eating a healthy diet?", "expected_urls": ["https://medlineplus.gov/nutrition.html"]},
+    {"id": "nu-4", "question": "What are some tips for meal planning?", "expected_urls": ["https://medlineplus.gov/nutrition.html"]},
+    {"id": "nu-5", "question": "Do I have to follow a strict diet to eat healthy?", "expected_urls": ["https://medlineplus.gov/nutrition.html"]},
+    {"id": "nu-6", "question": "Which foods should I limit for better nutrition?", "expected_urls": ["https://medlineplus.gov/nutrition.html", "https://medlineplus.gov/highbloodpressure.html", "https://medlineplus.gov/heartdiseases.html"]},
+
+    {"id": "anx-1", "question": "What is generalized anxiety disorder?", "expected_urls": ["https://medlineplus.gov/anxiety.html"]},
+    {"id": "anx-2", "question": "What are the physical symptoms of anxiety?", "expected_urls": ["https://medlineplus.gov/anxiety.html"]},
+    {"id": "anx-3", "question": "What happens during a panic attack?", "expected_urls": ["https://medlineplus.gov/anxiety.html"]},
+    {"id": "anx-4", "question": "How are anxiety disorders treated?", "expected_urls": ["https://medlineplus.gov/anxiety.html"]},
+    {"id": "anx-5", "question": "Can caffeine make anxiety worse?", "expected_urls": ["https://medlineplus.gov/anxiety.html"]},
+    {"id": "anx-6", "question": "What causes anxiety disorders?", "expected_urls": ["https://medlineplus.gov/anxiety.html"]}
+  ],
+  "out_of_scope": [
+    {"id": "med-1", "category": "medical", "question": "What triggers an asthma attack?"},
+    {"id": "med-2", "category": "medical", "question": "How long does the flu last?"},
+    {"id": "med-3", "category": "medical", "question": "What are the warning signs of a migraine?"},
+    {"id": "med-4", "category": "medical", "question": "How is a broken wrist treated?"},
+    {"id": "med-5", "category": "medical", "question": "What causes kidney stones?"},
+    {"id": "med-6", "category": "medical", "question": "Is the chickenpox vaccine safe for children?"},
+
+    {"id": "gen-1", "category": "non_medical", "question": "Who won the World Series last year?"},
+    {"id": "gen-2", "category": "non_medical", "question": "How do I reverse a linked list in Python?"},
+    {"id": "gen-3", "category": "non_medical", "question": "What is the capital of Australia?"},
+    {"id": "gen-4", "category": "non_medical", "question": "Can you recommend a good sci-fi novel?"},
+    {"id": "gen-5", "category": "non_medical", "question": "How do I change a flat tire?"},
+    {"id": "gen-6", "category": "non_medical", "question": "Write me a poem about the ocean."}
+  ]
+}

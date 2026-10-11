@@ -1,0 +1,902 @@
+From eac56293bae3a60a392a531be89d6212b9cc610d Mon Sep 17 00:00:00 2001
+From: arilui <plui0212@gmail.com>
+Date: Sun, 11 Oct 2026 09:23:33 -0700
+Subject: [PATCH] Prepare for Vercel deployment
+
+Configurable API URL and CORS origins, input limits, rate limiting,
+UTF-8 runtime requirements, and README deployment steps.
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_01CuDKGZWsbGgeuJfWYycwhZ
+---
+ .gitignore                   |   1 +
+ README.md                    | 196 +++++++++++++----------------------
+ backend/app.py               | 186 +++++++++++++++++++++++----------
+ backend/config.py            |  40 +++++++
+ backend/ingest.py            | 119 +++++++++++++++++----
+ backend/ingest_web.py        |  70 -------------
+ backend/requirements-dev.txt |   7 ++
+ backend/requirements.txt     |   4 +
+ frontend/app/page.tsx        |  31 +++++-
+ 9 files changed, 382 insertions(+), 272 deletions(-)
+ create mode 100644 backend/config.py
+ delete mode 100644 backend/ingest_web.py
+ create mode 100644 backend/requirements-dev.txt
+ create mode 100644 backend/requirements.txt
+
+diff --git a/.gitignore b/.gitignore
+index 58a77d8..34db3be 100644
+--- a/.gitignore
++++ b/.gitignore
+@@ -2,6 +2,7 @@
+ backend/venv/
+ backend/__pycache__/
+ backend/chroma_db/
++.venv/
+ 
+ # Environment variables
+ backend/.env
+diff --git a/README.md b/README.md
+index 3d87399..56bc63e 100644
+--- a/README.md
++++ b/README.md
+@@ -1,78 +1,71 @@
+ # Medical RAG Chatbot
+ 
+-A full-stack Retrieval-Augmented Generation (RAG) medical education chatbot built with Next.js, FastAPI, OpenAI embeddings, and Chroma vector search.
++A full-stack Retrieval-Augmented Generation (RAG) chatbot for medical education, built with Next.js, FastAPI, and OpenAI.
+ 
+-The application retrieves trusted medical information from public health sources and generates grounded responses through a ChatGPT-style interface.
++It answers health questions using retrieved passages from MedlinePlus, cites the pages it used, and declines questions its reference material doesn't cover instead of answering from the model's memory.
++
++**Live demo:** _add your Vercel URL here_
+ 
+ ---
+ 
+ ## Features
+ 
+-- Full-stack AI chatbot application
+-- ChatGPT/Claude-style frontend UI
+-- Retrieval-Augmented Generation (RAG)
+-- Vector similarity search using ChromaDB
+-- OpenAI embeddings + LLM integration
+-- Medical information retrieval from trusted public sources
+-- Source-grounded responses with citations
+-- FastAPI backend API
+-- Next.js + Tailwind frontend
+-- Educational safety guardrails
++- Retrieval-Augmented Generation over trusted public health pages
++- Source citations with links back to the original pages
++- Relevance threshold: off-topic questions are declined without calling the LLM
++- Input length limit and per-IP rate limiting
++- Educational safety guardrails in the prompt
++- Next.js + Tailwind chat interface
++- Serverless deployment on Vercel
+ 
+ ---
+ 
+ ## Tech Stack
+ 
+-### Frontend
+-- Next.js
+-- React
+-- TypeScript
+-- Tailwind CSS
++**Frontend:** Next.js, React, TypeScript, Tailwind CSS
+ 
+-### Backend
+-- FastAPI
+-- LangChain
+-- OpenAI API
+-- ChromaDB
+-- BeautifulSoup
+-
+-### AI / Retrieval
+-- OpenAI Embeddings (`text-embedding-3-small`)
+-- GPT-4o Mini
+-- Vector similarity search
+-- Recursive text chunking
++**Backend:** FastAPI, NumPy, OpenAI API (`text-embedding-3-small`, `gpt-4o-mini`)
++
++**Ingestion:** LangChain text splitters, BeautifulSoup
+ 
+ ---
+ 
+ ## Architecture
+ 
+ ```text
+-Frontend (Next.js)
+-        ↓
+-FastAPI Backend
+-        ↓
+-User Query
+-        ↓
+-Chroma Vector Search
+-        ↓
+-Relevant Medical Context
+-        ↓
+-OpenAI LLM
+-        ↓
+-Grounded Response + Sources
++            Offline (ingest.py)                          Online (app.py)
++
++MedlinePlus pages                               User question
++      ↓                                               ↓
++Scrape + clean (BeautifulSoup)                  Embed question
++      ↓                                               ↓
++Chunk (800 chars, 150 overlap)                  Cosine similarity vs. index
++      ↓                                               ↓
++Embed (text-embedding-3-small)                  Keep chunks above threshold
++      ↓                                               ↓
++index/embeddings.npy + chunks.json  ──────────▶ None? → decline
++                                                Some? → gpt-4o-mini with context
++                                                      ↓
++                                                Answer + cited sources
+ ```
+ 
++### Why no vector database?
++
++The knowledge base is a few hundred chunks. A brute-force dot product over an in-memory NumPy matrix searches it in well under a millisecond. A vector database such as Chroma would add a large dependency and need a writable disk, neither of which suits a serverless deployment, without improving retrieval at this scale. If the corpus grew to hundreds of thousands of chunks, an approximate-nearest-neighbor index would become worthwhile.
++
+ ---
+ 
+ ## Data Sources
+ 
+-This project currently retrieves educational medical information from:
++The index is built from these MedlinePlus topic pages:
+ 
+-- MedlinePlus
+-- CDC
+-- NIH
++- Diabetes
++- High Blood Pressure
++- Heart Diseases
++- Nutrition
++- Anxiety
+ 
+-The current ingestion pipeline scrapes trusted public health web pages and converts them into vector embeddings for semantic retrieval.
++To add more, append entries to `SOURCES` in `backend/ingest.py` and re-run ingestion.
+ 
+ ---
+ 
+@@ -80,88 +73,46 @@ The current ingestion pipeline scrapes trusted public health web pages and conve
+ 
+ ```text
+ medical-rag-chatbot/
+-│
+ ├── backend/
+-│   ├── app.py
+-│   ├── ingest_web.py
+-│   ├── chroma_db/
+-│   └── docs/
+-│
+-├── frontend/
+-│   ├── app/
+-│   ├── public/
+-│   └── package.json
+-│
+-└── .gitignore
++│   ├── app.py               # FastAPI app: retrieval + generation
++│   ├── config.py            # Shared settings (models, thresholds, CORS)
++│   ├── ingest.py            # Builds the retrieval index
++│   ├── index/               # Generated index, committed and deployed
++│   ├── requirements.txt     # Runtime dependencies (what Vercel installs)
++│   └── requirements-dev.txt # Adds ingestion + local server dependencies
++└── frontend/
++    └── app/page.tsx         # Chat UI
+ ```
+ 
+ ---
+ 
+-## Installation
+-
+-### Clone Repository
+-
+-```bash
+-git clone https://github.com/YOUR_USERNAME/medical-rag-chatbot.git
+-cd medical-rag-chatbot
+-```
+-
+----
++## Running Locally
+ 
+-## Backend Setup
++### Backend
+ 
+ ```bash
+ cd backend
+ python -m venv venv
++source venv/bin/activate        # Windows: venv\Scripts\activate
++pip install -r requirements-dev.txt
+ ```
+ 
+-Activate environment:
+-
+-### Windows
+-
+-```bash
+-venv\Scripts\activate
+-```
+-
+-### macOS/Linux
+-
+-```bash
+-source venv/bin/activate
+-```
+-
+-Install dependencies:
+-
+-```bash
+-pip install fastapi uvicorn langchain langchain-openai langchain-community langchain-chroma langchain-text-splitters chromadb pypdf python-dotenv requests beautifulsoup4
+-```
+-
+-Create `.env`:
++Create `backend/.env`:
+ 
+ ```env
+ OPENAI_API_KEY=your_openai_api_key
+ ```
+ 
+-Run ingestion:
+-
+-```bash
+-python ingest_web.py
+-```
+-
+-Start backend:
++Build the index (only needed when sources change), then start the API:
+ 
+ ```bash
++python ingest.py
+ python -m uvicorn app:app --reload
+ ```
+ 
+-Backend runs at:
+-
+-```text
+-http://127.0.0.1:8000
+-```
++The API runs at `http://127.0.0.1:8000`.
+ 
+----
+-
+-## Frontend Setup
++### Frontend
+ 
+ ```bash
+ cd frontend
+@@ -169,31 +120,26 @@ npm install
+ npm run dev
+ ```
+ 
+-Frontend runs at:
+-
+-```text
+-http://localhost:3000
+-```
++The app runs at `http://localhost:3000`. It calls the API at `NEXT_PUBLIC_API_URL`, which defaults to `http://127.0.0.1:8000`.
+ 
+ ---
+ 
+-## Example Questions
++## Deploying to Vercel
+ 
+-- What are common symptoms of diabetes?
+-- What lifestyle changes help reduce high blood pressure?
+-- What is heart disease?
+-- What foods support heart health?
++The backend and frontend deploy as two Vercel projects from this one repository.
+ 
+----
++1. **Commit the index.** Run `python ingest.py` locally and commit `backend/index/`. The deployed API reads it at startup.
++2. **Backend project.** In Vercel, import this repo, set **Root Directory** to `backend`, and add these environment variables:
++   - `OPENAI_API_KEY`
++   - `ALLOWED_ORIGINS`: the frontend URL, for example `https://medical-rag-chatbot.vercel.app`
++3. **Frontend project.** Import the repo again, set **Root Directory** to `frontend`, and add:
++   - `NEXT_PUBLIC_API_URL`: the backend URL, for example `https://medical-rag-api.vercel.app`
++4. **Cap spending.** Set a monthly budget limit in your OpenAI account settings. The rate limiter runs per server instance, so it slows abuse down but the budget is what actually caps cost.
+ 
+-## Safety Notes
++Optional settings: `MIN_SIMILARITY` (default `0.30`), `RATE_LIMIT_REQUESTS` per minute (default `10`), `CHAT_MODEL` (default `gpt-4o-mini`).
+ 
+-This application is intended for educational purposes only.
++---
+ 
+-It does not:
+-- diagnose medical conditions
+-- prescribe treatment
+-- replace professional medical advice
+-- provide emergency care guidance
++## Safety Notes
+ 
+-Users should consult qualified healthcare professionals for medical decisions.
++This application is for educational purposes only. It does not diagnose conditions, prescribe treatment, replace professional medical advice, or provide emergency guidance. Consult a qualified healthcare professional for medical decisions.
+diff --git a/backend/app.py b/backend/app.py
+index 9060438..3e5c223 100644
+--- a/backend/app.py
++++ b/backend/app.py
+@@ -1,75 +1,122 @@
+-from fastapi import FastAPI
+-from fastapi.middleware.cors import CORSMiddleware
+-from pydantic import BaseModel
+-from dotenv import load_dotenv
++import json
++import time
++from collections import defaultdict, deque
+ 
+-from langchain_chroma import Chroma
+-from langchain_openai import OpenAIEmbeddings, ChatOpenAI
++import numpy as np
++from dotenv import load_dotenv
++from fastapi import FastAPI, HTTPException, Request
++from fastapi.middleware.cors import CORSMiddleware
++from openai import OpenAI
++from pydantic import BaseModel, Field
++
++from config import (
++    ALLOWED_ORIGINS,
++    CHAT_MODEL,
++    EMBEDDING_MODEL,
++    INDEX_DIR,
++    MAX_MESSAGE_CHARS,
++    MIN_SIMILARITY,
++    RATE_LIMIT_REQUESTS,
++    RATE_LIMIT_WINDOW_SECONDS,
++    TOP_K,
++)
+ 
+ load_dotenv()
+ 
+-app = FastAPI()
++app = FastAPI(title="Medical RAG Chatbot API")
+ 
+ app.add_middleware(
+     CORSMiddleware,
+-    allow_origins=["http://localhost:3000", "http://127.0.0.1:3000"],
+-    allow_credentials=True,
+-    allow_methods=["*"],
+-    allow_headers=["*"],
++    allow_origins=ALLOWED_ORIGINS,
++    allow_methods=["GET", "POST"],
++    allow_headers=["Content-Type"],
+ )
+ 
+-DB_PATH = "chroma_db"
++client = OpenAI()
+ 
+-embeddings = OpenAIEmbeddings(model="text-embedding-3-small")
+ 
+-db = Chroma(
+-    persist_directory=DB_PATH,
+-    embedding_function=embeddings,
+-)
++# --- Retrieval index -------------------------------------------------------
++# The corpus is a few hundred chunks, so a brute-force dot product over an
++# in-memory matrix takes well under a millisecond. A vector database would add
++# a large dependency and a writable disk without making retrieval better.
+ 
+-llm = ChatOpenAI(
+-    model="gpt-4o-mini",
+-    temperature=0.2,
+-)
++def load_index():
++    metadata = json.loads((INDEX_DIR / "chunks.json").read_text(encoding="utf-8"))
+ 
++    if metadata["embedding_model"] != EMBEDDING_MODEL:
++        raise RuntimeError(
++            f"Index was built with {metadata['embedding_model']} but the API "
++            f"queries with {EMBEDDING_MODEL}. Re-run ingest.py."
++        )
+ 
+-class ChatRequest(BaseModel):
+-    message: str
++    return metadata["chunks"], np.load(INDEX_DIR / "embeddings.npy")
+ 
+ 
+-@app.get("/")
+-def root():
+-    return {"message": "Medical RAG backend running"}
++CHUNKS, EMBEDDINGS = load_index()
+ 
+ 
+-@app.post("/chat")
+-def chat(request: ChatRequest):
+-    question = request.message
++def retrieve(question: str, k: int = TOP_K):
++    response = client.embeddings.create(model=EMBEDDING_MODEL, input=question)
++    query = np.asarray(response.data[0].embedding, dtype=np.float32)
++    query /= np.linalg.norm(query)
+ 
+-    results = db.similarity_search(question, k=5)
++    scores = EMBEDDINGS @ query
++    top = np.argsort(scores)[::-1][:k]
+ 
+-    context = "\n\n".join(
+-        [
+-            f"""
+-Source: {doc.metadata.get("source", "Unknown")}
+-URL: {doc.metadata.get("url", "Unknown")}
++    return [{**CHUNKS[i], "score": float(scores[i])} for i in top]
++
++
++# --- Rate limiting -----------------------------------------------------------
++
++_request_log: dict[str, deque] = defaultdict(deque)
++
++
++def check_rate_limit(client_ip: str) -> None:
++    now = time.monotonic()
++    timestamps = _request_log[client_ip]
++
++    while timestamps and now - timestamps[0] > RATE_LIMIT_WINDOW_SECONDS:
++        timestamps.popleft()
++
++    if len(timestamps) >= RATE_LIMIT_REQUESTS:
++        raise HTTPException(
++            status_code=429,
++            detail="Too many requests. Please wait a minute and try again.",
++        )
++
++    timestamps.append(now)
+ 
+-Content:
+-{doc.page_content}
+-"""
+-            for doc in results
+-        ]
+-    )
+ 
+-    prompt = f"""
++def get_client_ip(request: Request) -> str:
++    forwarded = request.headers.get("x-forwarded-for")
++    if forwarded:
++        return forwarded.split(",")[0].strip()
++    return request.client.host if request.client else "unknown"
++
++
++# --- API -------------------------------------------------------------------------
++
++class ChatRequest(BaseModel):
++    message: str = Field(min_length=1, max_length=MAX_MESSAGE_CHARS)
++
++
++NO_CONTEXT_ANSWER = (
++    "I don't have reference material on that topic, so I can't answer it reliably. "
++    "I currently cover diabetes, high blood pressure, heart disease, nutrition, "
++    "and anxiety.\n\n"
++    "This is educational information only. For personal medical questions, "
++    "please talk to a qualified healthcare professional."
++)
++
++PROMPT_TEMPLATE = """
+ You are a careful medical education assistant.
+ 
+-Answer the user's question using the provided medical reference context.
++Answer the user's question using only the provided medical reference context.
+ 
+ Rules:
+ - Use the context as your source of truth.
+-- If the context contains relevant information, summarize it clearly.
+-- If the context is only partially relevant, say what the context supports.
++- If the context only partly answers the question, say what it supports and what it doesn't.
++- If the context doesn't answer the question, say so instead of answering from memory.
+ - Do not diagnose.
+ - Do not prescribe medication.
+ - Do not replace professional medical advice.
+@@ -87,19 +134,48 @@ User question:
+ {question}
+ """
+ 
+-    response = llm.invoke(prompt)
++
++@app.get("/")
++def root():
++    return {"message": "Medical RAG backend running", "chunks_indexed": len(CHUNKS)}
++
++
++@app.post("/chat")
++def chat(body: ChatRequest, request: Request):
++    check_rate_limit(get_client_ip(request))
++
++    question = body.message.strip()
++    results = retrieve(question)
++    relevant = [r for r in results if r["score"] >= MIN_SIMILARITY]
++
++    if not relevant:
++        return {"answer": NO_CONTEXT_ANSWER, "sources": []}
++
++    context = "\n\n".join(
++        f"Source: {r['source']}\nURL: {r['url']}\n\nContent:\n{r['text']}"
++        for r in relevant
++    )
++
++    response = client.chat.completions.create(
++        model=CHAT_MODEL,
++        temperature=0.2,
++        max_tokens=600,
++        messages=[
++            {
++                "role": "user",
++                "content": PROMPT_TEMPLATE.format(context=context, question=question),
++            }
++        ],
++    )
+ 
+     sources = [
+         {
+-            "source": doc.metadata.get("source", "Unknown"),
+-            "url": doc.metadata.get("url", None),
+-            "page": doc.metadata.get("page", None),
+-            "preview": doc.page_content[:250],
++            "source": r["source"],
++            "url": r["url"],
++            "score": round(r["score"], 3),
++            "preview": r["text"][:250],
+         }
+-        for doc in results
++        for r in relevant
+     ]
+ 
+-    return {
+-        "answer": response.content,
+-        "sources": sources,
+-    }
+\ No newline at end of file
++    return {"answer": response.choices[0].message.content, "sources": sources}
+diff --git a/backend/config.py b/backend/config.py
+new file mode 100644
+index 0000000..ea88ade
+--- /dev/null
++++ b/backend/config.py
+@@ -0,0 +1,40 @@
++"""Settings shared by the API and the ingestion script.
++
++Both must use the same embedding model, or retrieval silently degrades:
++query vectors and document vectors would come from different models.
++"""
++
++import os
++from pathlib import Path
++
++BASE_DIR = Path(__file__).resolve().parent
++INDEX_DIR = BASE_DIR / "index"
++
++EMBEDDING_MODEL = "text-embedding-3-small"
++CHAT_MODEL = os.getenv("CHAT_MODEL", "gpt-4o-mini")
++
++TOP_K = 5
++
++# Chunks scoring below this cosine similarity are treated as "not relevant".
++# If nothing clears it, the API declines instead of letting the model guess.
++# Tune it with the evaluation set: raise it if off-topic questions get answers,
++# lower it if real questions get refused.
++MIN_SIMILARITY = float(os.getenv("MIN_SIMILARITY", "0.30"))
++
++MAX_MESSAGE_CHARS = 1000
++
++# Simple per-IP limit. On serverless this is per running instance, so treat it
++# as a speed bump. The real cost protection is the spending limit on your
++# OpenAI account.
++RATE_LIMIT_REQUESTS = int(os.getenv("RATE_LIMIT_REQUESTS", "10"))
++RATE_LIMIT_WINDOW_SECONDS = 60
++
++# Comma-separated list, e.g. "https://medical-rag.vercel.app,http://localhost:3000"
++ALLOWED_ORIGINS = [
++    origin.strip()
++    for origin in os.getenv(
++        "ALLOWED_ORIGINS",
++        "http://localhost:3000,http://127.0.0.1:3000",
++    ).split(",")
++    if origin.strip()
++]
+diff --git a/backend/ingest.py b/backend/ingest.py
+index b2a7f9a..84b3009 100644
+--- a/backend/ingest.py
++++ b/backend/ingest.py
+@@ -1,30 +1,111 @@
++"""
++Build the retrieval index for the Medical RAG Chatbot.
++
++Run this locally whenever you change the source pages:
++
++    pip install -r requirements-dev.txt
++    python ingest.py
++
++It writes two files into backend/index/, which are committed to the repo and
++shipped with the deployed API:
++
++    chunks.json      the text chunks and their source metadata
++    embeddings.npy   one L2-normalised embedding per chunk (float32)
++
++The deployed API never calls this script, so the scraping and chunking
++libraries stay out of the production bundle.
++"""
++
++import json
++from pathlib import Path
++
++import numpy as np
++import requests
++from bs4 import BeautifulSoup
+ from dotenv import load_dotenv
+-from langchain_community.document_loaders import PyPDFDirectoryLoader
+ from langchain_text_splitters import RecursiveCharacterTextSplitter
+-from langchain_openai import OpenAIEmbeddings
+-from langchain_chroma import Chroma
++from openai import OpenAI
++
++from config import EMBEDDING_MODEL, INDEX_DIR
+ 
+ load_dotenv()
+ 
+-DOCS_PATH = "docs"
+-DB_PATH = "chroma_db"
++# Add pages here to grow the knowledge base. Keep `source` accurate:
++# it is shown to users as the citation.
++SOURCES = [
++    {"source": "MedlinePlus", "url": "https://medlineplus.gov/diabetes.html"},
++    {"source": "MedlinePlus", "url": "https://medlineplus.gov/highbloodpressure.html"},
++    {"source": "MedlinePlus", "url": "https://medlineplus.gov/heartdiseases.html"},
++    {"source": "MedlinePlus", "url": "https://medlineplus.gov/nutrition.html"},
++    {"source": "MedlinePlus", "url": "https://medlineplus.gov/anxiety.html"},
++]
++
++CHUNK_SIZE = 800
++CHUNK_OVERLAP = 150
++EMBED_BATCH_SIZE = 100
++
++
++def fetch_page_text(url: str) -> str:
++    response = requests.get(url, timeout=15)
++    response.raise_for_status()
++
++    soup = BeautifulSoup(response.text, "html.parser")
++
++    for tag in soup(["script", "style", "nav", "footer", "header"]):
++        tag.decompose()
++
++    main = soup.find("main") or soup.body
++    return main.get_text(separator="\n", strip=True)
++
++
++def embed(client: OpenAI, texts: list[str]) -> np.ndarray:
++    vectors = []
++    for start in range(0, len(texts), EMBED_BATCH_SIZE):
++        batch = texts[start : start + EMBED_BATCH_SIZE]
++        response = client.embeddings.create(model=EMBEDDING_MODEL, input=batch)
++        vectors.extend(item.embedding for item in response.data)
++
++    matrix = np.asarray(vectors, dtype=np.float32)
++    # Normalise once here so the API can use a plain dot product for cosine similarity.
++    matrix /= np.linalg.norm(matrix, axis=1, keepdims=True)
++    return matrix
++
++
++def main() -> None:
++    splitter = RecursiveCharacterTextSplitter(
++        chunk_size=CHUNK_SIZE,
++        chunk_overlap=CHUNK_OVERLAP,
++    )
++
++    chunks = []
++    for page in SOURCES:
++        print(f"Fetching {page['url']}")
++        text = fetch_page_text(page["url"])
+ 
+-loader = PyPDFDirectoryLoader(DOCS_PATH)
+-documents = loader.load()
++        for piece in splitter.split_text(text):
++            chunks.append(
++                {
++                    "text": piece,
++                    "source": page["source"],
++                    "url": page["url"],
++                }
++            )
+ 
+-splitter = RecursiveCharacterTextSplitter(
+-    chunk_size=800,
+-    chunk_overlap=150
+-)
++    print(f"Embedding {len(chunks)} chunks with {EMBEDDING_MODEL}...")
++    matrix = embed(OpenAI(), [chunk["text"] for chunk in chunks])
+ 
+-chunks = splitter.split_documents(documents)
++    INDEX_DIR.mkdir(exist_ok=True)
++    np.save(INDEX_DIR / "embeddings.npy", matrix)
++    (INDEX_DIR / "chunks.json").write_text(
++        json.dumps(
++            {"embedding_model": EMBEDDING_MODEL, "chunks": chunks},
++            indent=2,
++        ),
++        encoding="utf-8",
++    )
+ 
+-embeddings = OpenAIEmbeddings()
++    print(f"Indexed {len(chunks)} chunks from {len(SOURCES)} pages into {INDEX_DIR}/")
+ 
+-Chroma.from_documents(
+-    documents=chunks,
+-    embedding=embeddings,
+-    persist_directory=DB_PATH
+-)
+ 
+-print(f"Indexed {len(chunks)} chunks.")
+\ No newline at end of file
++if __name__ == "__main__":
++    main()
+diff --git a/backend/ingest_web.py b/backend/ingest_web.py
+deleted file mode 100644
+index d4c8816..0000000
+--- a/backend/ingest_web.py
++++ /dev/null
+@@ -1,70 +0,0 @@
+-import requests
+-from bs4 import BeautifulSoup
+-from dotenv import load_dotenv
+-
+-from langchain_core.documents import Document
+-from langchain_text_splitters import RecursiveCharacterTextSplitter
+-from langchain_openai import OpenAIEmbeddings
+-from langchain_chroma import Chroma
+-
+-load_dotenv()
+-
+-DB_PATH = "chroma_db"
+-
+-TOPIC_URLS = [
+-    "https://medlineplus.gov/diabetes.html",
+-    "https://medlineplus.gov/highbloodpressure.html",
+-    "https://medlineplus.gov/heartdiseases.html",
+-    "https://medlineplus.gov/nutrition.html",
+-    "https://medlineplus.gov/anxiety.html",
+-]
+-
+-
+-def fetch_page_text(url: str) -> str:
+-    response = requests.get(url, timeout=15)
+-    response.raise_for_status()
+-
+-    soup = BeautifulSoup(response.text, "html.parser")
+-
+-    for tag in soup(["script", "style", "nav", "footer", "header"]):
+-        tag.decompose()
+-
+-    main = soup.find("main") or soup.body
+-    text = main.get_text(separator="\n", strip=True)
+-
+-    return text
+-
+-
+-documents = []
+-
+-for url in TOPIC_URLS:
+-    print(f"Fetching {url}")
+-
+-    text = fetch_page_text(url)
+-
+-    documents.append(
+-        Document(
+-            page_content=text,
+-            metadata={
+-                "source": "MedlinePlus",
+-                "url": url,
+-            },
+-        )
+-    )
+-
+-splitter = RecursiveCharacterTextSplitter(
+-    chunk_size=800,
+-    chunk_overlap=150,
+-)
+-
+-chunks = splitter.split_documents(documents)
+-
+-embeddings = OpenAIEmbeddings(model="text-embedding-3-small")
+-
+-Chroma.from_documents(
+-    documents=chunks,
+-    embedding=embeddings,
+-    persist_directory=DB_PATH,
+-)
+-
+-print(f"Indexed {len(chunks)} chunks from {len(TOPIC_URLS)} web pages.")
+\ No newline at end of file
+diff --git a/backend/requirements-dev.txt b/backend/requirements-dev.txt
+new file mode 100644
+index 0000000..6bfd4cb
+--- /dev/null
++++ b/backend/requirements-dev.txt
+@@ -0,0 +1,7 @@
++# Everything needed to run locally and rebuild the index.
++# The deployed API only installs requirements.txt.
++-r requirements.txt
++uvicorn>=0.30
++requests>=2.31
++beautifulsoup4>=4.12
++langchain-text-splitters>=0.3
+diff --git a/backend/requirements.txt b/backend/requirements.txt
+new file mode 100644
+index 0000000..c06a01d
+--- /dev/null
++++ b/backend/requirements.txt
+@@ -0,0 +1,4 @@
++fastapi>=0.115
++numpy>=2.0
++openai>=1.50
++python-dotenv>=1.0
+diff --git a/frontend/app/page.tsx b/frontend/app/page.tsx
+index 65a6637..1364670 100644
+--- a/frontend/app/page.tsx
++++ b/frontend/app/page.tsx
+@@ -2,9 +2,12 @@
+ 
+ import { useState } from "react";
+ 
++const API_URL = process.env.NEXT_PUBLIC_API_URL ?? "http://127.0.0.1:8000";
++
+ type Source = {
+   source: string;
+-  page?: number;
++  url?: string;
++  score?: number;
+   preview: string;
+ };
+ 
+@@ -34,7 +37,7 @@ export default function Home() {
+     setLoading(true);
+ 
+     try {
+-      const response = await fetch("http://127.0.0.1:8000/chat", {
++      const response = await fetch(`${API_URL}/chat`, {
+         method: "POST",
+         headers: {
+           "Content-Type": "application/json",
+@@ -46,6 +49,16 @@ export default function Home() {
+ 
+       const data = await response.json();
+ 
++      if (!response.ok) {
++        const detail =
++          typeof data.detail === "string"
++            ? data.detail
++            : "Your message couldn't be processed. Messages are limited to 1,000 characters.";
++        setMessages((prev) => [...prev, { role: "assistant", content: detail }]);
++        setLoading(false);
++        return;
++      }
++
+       const assistantMessage: Message = {
+         role: "assistant",
+         content: data.answer,
+@@ -111,7 +124,18 @@ export default function Home() {
+                     className="bg-zinc-900 border border-zinc-800 rounded-xl p-3 text-sm"
+                   >
+                     <div className="font-semibold">
+-                      {source.source}
++                      {source.url ? (
++                        <a
++                          href={source.url}
++                          target="_blank"
++                          rel="noopener noreferrer"
++                          className="hover:underline"
++                        >
++                          {source.source}
++                        </a>
++                      ) : (
++                        source.source
++                      )}
+                     </div>
+ 
+                     <div className="text-zinc-400 mt-1">
+@@ -142,6 +166,7 @@ export default function Home() {
+                 sendMessage();
+               }
+             }}
++            maxLength={1000}
+             placeholder="Ask a medical question..."
+             className="flex-1 bg-zinc-900 border border-zinc-700 rounded-xl px-4 py-3 outline-none focus:border-blue-500"
+           />
+-- 
+2.43.0
+

@@ -19,6 +19,21 @@ It answers health questions using retrieved passages from MedlinePlus, cites the
 - Serverless deployment on Vercel
 
 ---
+## Evaluation
+
+Retrieval and refusal were tested on 42 questions: 30 answerable from the indexed pages (6 per page) and 12 that should be refused (6 health topics the index doesn't cover, 6 unrelated). [Full report](eval/results.md)
+
+| Metric | Result |
+|---|---|
+| Correct source page ranked first (hit@1) | 100% (30/30) |
+| Answerable questions answered | 100% (30/30) |
+| Out-of-scope questions refused | 100% (12/12) |
+
+The similarity threshold (0.37) was chosen from a threshold sweep: the lowest-scoring answerable question scored 0.397 and the highest-scoring out-of-scope question scored 0.343, so 0.37 sits in the gap between them. With only 42 hand-written questions this is an early benchmark, not a guarantee, and real user phrasing may narrow the margin.
+
+To reproduce: `python eval/run_eval.py`
+
+---
 
 ## Tech Stack
 
